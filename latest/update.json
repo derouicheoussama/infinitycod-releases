@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.8.0",
+  "version": "5.8.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.8.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.8.0",
-  "sha256": "740ec1b6bd53c8232bf121e109f2592afb81a3e3027b7f7bae3f41fadb168bf3",
-  "release_date": "2026-09-10T14:33:24.476Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.8.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.8.1",
+  "sha256": "af8dd15f009eb84ea0e1df4869dab58c8af8b0e889e34674c85fc1565ee434f1",
+  "release_date": "2026-09-10T14:42:15.371Z",
   "channel": "stable",
-  "changelog": "## 5.8.0 — 2026-09-10\n\nL'interface Réglages est réorganisée en sections numérotées, et la cause n°1 du « rien ne change » est éliminée.\n\n### Ajouté\n- **Purge automatique des caches à chaque enregistrement** : LiteSpeed, WP Rocket, W3 Total Cache, WP Super Cache, SG Optimizer, WP Fastest Cache et Autoptimize sont vidés dès que vous cliquez sur Enregistrer — plus besoin de vider manuellement pour voir le formulaire changer.\n- **Bouton Enregistrer toujours visible** (barre collante en bas de page) avec rappel « appliqué dès l'enregistrement ».\n- **Bandeau guide** en haut de la page : 1) Modifiez 2) Enregistrez (caches vidés) 3) Vérifiez l'aperçu.\n\n### Modifié\n- **Onglet Formulaire réorganisé en 8 sections numérotées** : Contenu → Champs → Apparence → Options → Captcha → Compte à rebours → Écran de remerciement → Libellés → Aperçu.\n- **2 anomalies d'interface corrigées** : la case « Offres par quantité » avait disparu de l'onglet Formulaire (et repassait à zéro à chaque enregistrement — restaurée, une seule fois, avec son badge Premium) ; la case « Barre collante » était affichée en double ; des cases « Offres/Réassurance » inertes traînaient dans l'onglet Avancé (elles n'y sauvegardaient jamais) — supprimées."
+  "changelog": "## 5.8.1 — 2026-09-10\n\n« Un preset choisit la couleur de départ » fonctionne maintenant réellement, même sans JavaScript.\n\n### Corrigé\n- **Presets réellement appliqués** : tant que la couleur d'accent n'a pas été personnalisée (valeur d'origine), choisir un preset (Océan, Royal, Sunset…) et enregistrer change réellement la couleur de tout le formulaire — côté serveur, indépendamment du navigateur.\n- Le clic sur un preset déclenche désormais le rafraîchissement immédiat de l'aperçu en direct (avant : le sélecteur changeait mais l'aperçu ne bougeait pas, d'où l'impression que rien ne fonctionnait).\n- Dès que la couleur d'accent est personnalisée, elle redevient prioritaire sur le preset — exactement le comportement annoncé."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.6.3",
+  "version": "5.7.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.3",
-  "sha256": "2d88e72a6e88bc1dd41bcf54137ac1a069716e83b397d61817e4454082300e74",
-  "release_date": "2026-09-10T13:25:53.619Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.7.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.7.0",
+  "sha256": "57b39daf11f5ac6575ece734c401562abfbe921b08daec0f164c69b2182067ab",
+  "release_date": "2026-09-10T13:47:14.012Z",
   "channel": "stable",
-  "changelog": "## 5.6.3 — 2026-09-10\n\nVous ne savez jamais si le formulaire affiche VOS réglages ? Le HUD admin répond instantanément.\n\n### Ajouté\n- **HUD administrateur sur le formulaire** : les admins voient un petit bandeau « ⚙ Accent · Captcha · Timer · Thème » affichant les valeurs RÉELLEMENT rendues par le serveur, avec lien direct vers les réglages. Invisible pour les clients. Si le HUD n'apparaît pas pour vous, la page servie est une copie en cache (LiteSpeed…).\n- **Diagnostics « persistance »** : test d'écriture → lecture immédiate qui détecte un cache d'objets défectueux faisant « disparaître » les sauvegardes ; affichage des réglages réellement stockés (accent, captcha, timer, thème) et de la date de dernière sauvegarde.\n\n### Modifié\n- Sous-menu « Commandes COD » renommé **« Commandes »**.\n\n### Diagnostic du 10/09 (site de démonstration)\nLe formulaire servait bien le moteur complet avec les valeurs par défaut : captcha/timer étaient simplement désactivés et la couleur n'avait pas été enregistrée — d'où le HUD et les tests de persistance ajoutés."
+  "changelog": "## 5.7.0 — 2026-09-10\n\nPersonnalisation avancée : chaque couleur et mesure remplie est réellement appliquée au formulaire.\n\n### Ajouté\n- **Couleur du bouton** (indépendante de l'accent, dégradé calculé automatiquement).\n- **Couleur du texte**, **couleur des bordures**, **couleur de fond du formulaire**.\n- **Arrondi des coins (0-40 px)** et **espacement intérieur (8-48 px)**.\n- Principe : champ vide = valeurs du thème ; champ rempli = appliqué réellement via variables inline. Appliqué à l'aperçu en direct ET au formulaire public.\n\n### Non-régression\n- GitHub Updater re-testé intégralement (détection, injection, SHA-256 valide/invalide, compatibilité bloquante, dégradation réseau) : TOUS LES TESTS PASSENT — aucune modification du flux détection → téléchargement → installation."
 }

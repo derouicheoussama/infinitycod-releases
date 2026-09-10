@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.12.0",
+  "version": "5.12.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.12.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.12.0",
-  "sha256": "162eddd7a8bfd047bd05b9cd5056efd61146dfc2ca1f1fb105e14a62dc888f72",
-  "release_date": "2026-09-10T17:14:16.888Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.12.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.12.1",
+  "sha256": "4453fd569136622403748209da11cc0b20de04e7c4a95a39d43f1bbbf4bf9094",
+  "release_date": "2026-09-10T18:31:16.202Z",
   "channel": "stable",
-  "changelog": "## 5.12.0 — 2026-09-10\n\n8 styles de compte à rebours, personnalisation étendue (police, hauteur, largeur 1400) et licence Premium UNIQUE avec bouton PayPal direct.\n\n### Ajouté\n- **8 styles de compte à rebours** : Barre rayée, Pilule sombre, Ruban accent, Flip (horloge à volets), Néon (texte lumineux), Minimal (souligné), Bandeau plein (dégradé accent), Encadré (cadre accent).\n- **Personnalisation étendue** (Réglages → Apparence) : taille de la police (13-20 px) et hauteur du bouton (48-80 px), en plus de l'arrondi, de l'espacement et de la largeur.\n- **Largeur du formulaire jusqu'à 1400 px** pour les thèmes larges et les mises en page pleine largeur.\n- **Champ Quantité élargi** (60 px) pour un meilleur confort tactile.\n- **Licence Premium UNIQUE « tout inclus »** : la page Licence affiche désormais une seule carte Premium avec bouton PayPal direct vers le compte du vendeur (prix configurable dans la configuration vendeur). Les anciens prix multi-paliers restent compatibles mais ne sont plus affichés."
+  "changelog": "## 5.12.1 — 2026-09-10\n\nCorrection mobile complète à partir des captures réelles d'un site client (computime.dz).\n\n### Corrigé\n- **En-tête mobile** : plus jamais d'empilement mot par mot — en-tête compact sur une ligne (photo 42 px, icône 38 px, titre limité à 2 lignes, sous-titre 2 lignes, badge prix compact), l'ancien prix masqué sur petit écran.\n- **Barre collante** : total et bouton sur UNE seule ligne chacun (le bouton ne se replie plus sur deux lignes), texte nettoyé des espaces/éléments parasites, ellipsis de sécurité, paddings et ombre ajustés.\n- **Champ Quantité** : la bordure imposée par certains thèmes est neutralisée, stepper limité à 180 px.\n- Marges stock/timer/progression alignées sur le formulaire, bouton principal compact (48 px).\n\n### Mesuré\n- Aucun débordement à 390 px (vérification DOM élément par élément) ; compatible 320 px avec dégradation propre."
 }

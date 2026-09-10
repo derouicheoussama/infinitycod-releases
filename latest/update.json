@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.9.1",
+  "version": "5.9.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.9.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.9.1",
-  "sha256": "c5c0b87f69c55d40088b58b5f5374ba2e63bc5bb86807a5a1abbe37e26e87506",
-  "release_date": "2026-09-10T15:58:46.433Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.9.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.9.2",
+  "sha256": "aae91d28eeacb980c3618d631d4692957f527b62a8ce09ba6fed2f4096990c47",
+  "release_date": "2026-09-10T16:14:24.246Z",
   "channel": "stable",
-  "changelog": "## 5.9.1 — 2026-09-10\n\nSauvegarde INFAILLIBLE : chaque enregistrement est vérifié en base et disposé d'un repli automatique.\n\n### Ajouté\n- **Vérification après écriture** : après chaque « Enregistrer », le plugin RELIT la base et compare. Si les valeurs relues diffèrent (cache d'objets défectueux), un message rouge explicite s'affiche au lieu d'un faux succès.\n- **Repli AJAX automatique** : l'enregistrement passe d'abord par admin-ajax (contourne un éventuel blocage de admin-post.php par un pare-feu) ; en cas d'échec, repli transparent sur la soumission native.\n- En-têtes no-cache sur les écrans Réglages et Commandes.\n\n### ⚠️ IMPORTANT — version installée\nLe sondage direct du site de démonstration montre la 5.7.1 installée : les correctifs 5.7.2 → 5.9.1 (dont lecture directe en base et purge des caches) ne sont actifs qu'après installation de cette version. Mises à jour → Mettre à jour maintenant."
+  "changelog": "## 5.9.2 — 2026-09-10\n\nTrois styles de compte à rebours au choix + aperçu en direct en colonne collante à droite de l'écran.\n\n### Ajouté\n- **3 styles de compte à rebours** (Réglages → Formulaire → section 6) : Barre rayée animée (défaut), Pilule sombre avec point pulsant, Ruban en bannières aux couleurs de l'accent.\n- **Aperçu en direct repositionné** : sur les grands écrans (≥ 1660 px), l'onglet Formulaire passe en deux colonnes — les réglages à gauche, l'aperçu en direct en colonne collante À DROITE, face à vous, qui suit le défilement. Rafraîchissement accéléré à 400 ms pour un effet temps réel. Écrans plus étroits : disposition empilée classique."
 }

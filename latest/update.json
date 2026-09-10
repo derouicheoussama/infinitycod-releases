@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.7.1",
+  "version": "5.7.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.7.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.7.1",
-  "sha256": "aa2a4589686ef0f0413b32124b75ebff6d1bab5de20d0752e8ee3776dff72ae5",
-  "release_date": "2026-09-10T14:00:11.087Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.7.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.7.2",
+  "sha256": "6d7faf8affb9f30b2dc0ac556b85d0983cf2e0000ed380477a53a9e153615fb0",
+  "release_date": "2026-09-10T14:18:15.176Z",
   "channel": "stable",
-  "changelog": "## 5.7.1 — 2026-09-10\n\nAudit automatisé complet des écrans d'administration : un dernier réglage mort détecté et réparé.\n\n### Corrigé\n- **« Livraison gratuite par montant » et « Supplément poids » (page Wilayas & Tarifs) ne pouvaient jamais s'activer** : les cases étaient rendues avec un nom différent de celui lu par le gestionnaire de sauvegarde — chaque enregistrement les remettait à zéro. Noms alignés, les six réglages (activation, seuil, message, tarif par kg, kg inclus) fonctionnent.\n\n### Ajouté\n- **Nouvel audit automatique** : correspondance champ rendu ↔ champ lu sur TOUS les écrans d'administration (intégré à npm run check) — cette classe de réglage mort ne peut plus revenir."
+  "changelog": "## 5.7.2 — 2026-09-10\n\nDeux réglages fantômes de Wilayas & Tarifs deviennent réellement fonctionnels + pied de page assagi.\n\n### Ajouté\n- **Colonnes « Délai (jours) » et « Min (DA) » de Wilayas & Tarifs enfin éditables** : les colonnes existaient dans le tableau mais leurs cellules de saisie avaient disparu. Saisie + sauvegarde + application réelle :\n  - **Commande minimum par wilaya** : le serveur refuse la commande avec un message clair (« Commande minimum de X DA pour Alger ») si le sous-total est insuffisant ; le formulaire prévient le client dès le choix de la wilaya.\n  - **Délai de livraison** : affiché dans le récapitulatif (« ⏱ 2-4 ») dès le choix de la wilaya.\n\n### Modifié\n- Crédit de pied de page raccourci et discret : « InfinityCod vX.Y · © Infinity Coder »."
 }

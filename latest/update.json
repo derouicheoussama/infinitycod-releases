@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.6.0",
+  "version": "5.6.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.0",
-  "sha256": "cafe81c07c8383fb4ced3d11402e832ada6fd1e8c181548c936df6ecc228b20e",
-  "release_date": "2026-09-10T12:57:22.840Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.1",
+  "sha256": "5b42d3c4b911c67c75eab683e3a5581a9d26f0fd4b25bae732c29d8d7441ed6c",
+  "release_date": "2026-09-10T13:06:06.570Z",
   "channel": "stable",
-  "changelog": "## 5.6.0 — 2026-09-10\n\nLa couleur choisie dans le dashboard teinte DÉSORMAIS tout le formulaire, et le mode sombre fonctionne réellement.\n\n### Ajouté\n- **Couleur d'accent 100 % appliquée** : la couleur choisie (Réglages → Formulaire) pilote l'en-tête, le bouton, les focus, les puces de variantes, le récapitulatif, le total et les ombres — nuances calculées automatiquement (dégradé foncé + contraste du texte garanti). Plus aucun dégradé codé en dur.\n- **Mode sombre fonctionnel** : « Sombre » force le thème ; « Automatique » suit la préférence du visiteur (réglage système). Tous les composants (champs, cartes, récapitulatif, code promo, réassurance, upsell, barre collante) sont repensés en variables de couleur.\n- **Les 5 styles d'écran de remerciement** sont maintenant visuellement distincts (Classique, Confettis, Minimal, Ticket, Célébration).\n- **Surcharge Elementor restaurée** : le choix de preset dans le widget Elementor pilote réellement la couleur et le style du widget (surcharge locale documentée du réglage global)."
+  "changelog": "## 5.6.1 — 2026-09-10\n\nBadge de notification des commandes en attente + dernier réglage déconnecté branché.\n\n### Ajouté\n- **Badge rond rouge « commandes en attente »** sur le menu InfinityCod ET sur le sous-menu « Commandes COD » : le nombre de commandes à confirmer est visible d'un coup d'œil, mis à jour à chaque chargement de l'admin. Désactivable dans Réglages → Avancé.\n\n### Corrigé\n- Le réglage « Journal InfinityCod » (Réglages → Avancé) était ignoré : désactivé, aucune écriture de log n'a lieu désormais.\n- Rappel automatique après chaque enregistrement : si le formulaire public ne change pas, vider le cache du plugin de cache (LiteSpeed, WP Rocket…)."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.7.2",
+  "version": "5.8.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.7.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.7.2",
-  "sha256": "6d7faf8affb9f30b2dc0ac556b85d0983cf2e0000ed380477a53a9e153615fb0",
-  "release_date": "2026-09-10T14:18:15.176Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.8.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.8.0",
+  "sha256": "740ec1b6bd53c8232bf121e109f2592afb81a3e3027b7f7bae3f41fadb168bf3",
+  "release_date": "2026-09-10T14:33:24.476Z",
   "channel": "stable",
-  "changelog": "## 5.7.2 — 2026-09-10\n\nDeux réglages fantômes de Wilayas & Tarifs deviennent réellement fonctionnels + pied de page assagi.\n\n### Ajouté\n- **Colonnes « Délai (jours) » et « Min (DA) » de Wilayas & Tarifs enfin éditables** : les colonnes existaient dans le tableau mais leurs cellules de saisie avaient disparu. Saisie + sauvegarde + application réelle :\n  - **Commande minimum par wilaya** : le serveur refuse la commande avec un message clair (« Commande minimum de X DA pour Alger ») si le sous-total est insuffisant ; le formulaire prévient le client dès le choix de la wilaya.\n  - **Délai de livraison** : affiché dans le récapitulatif (« ⏱ 2-4 ») dès le choix de la wilaya.\n\n### Modifié\n- Crédit de pied de page raccourci et discret : « InfinityCod vX.Y · © Infinity Coder »."
+  "changelog": "## 5.8.0 — 2026-09-10\n\nL'interface Réglages est réorganisée en sections numérotées, et la cause n°1 du « rien ne change » est éliminée.\n\n### Ajouté\n- **Purge automatique des caches à chaque enregistrement** : LiteSpeed, WP Rocket, W3 Total Cache, WP Super Cache, SG Optimizer, WP Fastest Cache et Autoptimize sont vidés dès que vous cliquez sur Enregistrer — plus besoin de vider manuellement pour voir le formulaire changer.\n- **Bouton Enregistrer toujours visible** (barre collante en bas de page) avec rappel « appliqué dès l'enregistrement ».\n- **Bandeau guide** en haut de la page : 1) Modifiez 2) Enregistrez (caches vidés) 3) Vérifiez l'aperçu.\n\n### Modifié\n- **Onglet Formulaire réorganisé en 8 sections numérotées** : Contenu → Champs → Apparence → Options → Captcha → Compte à rebours → Écran de remerciement → Libellés → Aperçu.\n- **2 anomalies d'interface corrigées** : la case « Offres par quantité » avait disparu de l'onglet Formulaire (et repassait à zéro à chaque enregistrement — restaurée, une seule fois, avec son badge Premium) ; la case « Barre collante » était affichée en double ; des cases « Offres/Réassurance » inertes traînaient dans l'onglet Avancé (elles n'y sauvegardaient jamais) — supprimées."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.5.2",
+  "version": "5.6.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.5.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.5.2",
-  "sha256": "10551c8e4855e69a4618bbf33e67636984bcca8f78a1c0ce10d06471807b7a84",
-  "release_date": "2026-09-10T12:39:11.133Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.0",
+  "sha256": "cafe81c07c8383fb4ced3d11402e832ada6fd1e8c181548c936df6ecc228b20e",
+  "release_date": "2026-09-10T12:57:22.840Z",
   "channel": "stable",
-  "changelog": "## 5.5.2 — 2026-09-10\n\nL'onglet « Journal des modifications » de wp-admin affiche désormais la liste complète des ajouts et corrections.\n\n### Ajouté\n- **Journal des modifications embarqué** : le CHANGELOG.md voyage dans le plugin et alimente l'onglet même sans accès réseau (indépendant de GitHub et des miroirs). Les 8 dernières versions, converties en HTML propre et échappé.\n- Le manifest update.json embarque désormais le journal de la dernière version : les miroirs CDN le servent aussi."
+  "changelog": "## 5.6.0 — 2026-09-10\n\nLa couleur choisie dans le dashboard teinte DÉSORMAIS tout le formulaire, et le mode sombre fonctionne réellement.\n\n### Ajouté\n- **Couleur d'accent 100 % appliquée** : la couleur choisie (Réglages → Formulaire) pilote l'en-tête, le bouton, les focus, les puces de variantes, le récapitulatif, le total et les ombres — nuances calculées automatiquement (dégradé foncé + contraste du texte garanti). Plus aucun dégradé codé en dur.\n- **Mode sombre fonctionnel** : « Sombre » force le thème ; « Automatique » suit la préférence du visiteur (réglage système). Tous les composants (champs, cartes, récapitulatif, code promo, réassurance, upsell, barre collante) sont repensés en variables de couleur.\n- **Les 5 styles d'écran de remerciement** sont maintenant visuellement distincts (Classique, Confettis, Minimal, Ticket, Célébration).\n- **Surcharge Elementor restaurée** : le choix de preset dans le widget Elementor pilote réellement la couleur et le style du widget (surcharge locale documentée du réglage global)."
 }

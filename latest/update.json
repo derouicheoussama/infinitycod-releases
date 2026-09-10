@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.11.1",
+  "version": "5.12.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.11.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.11.1",
-  "sha256": "7f7fcff20a9b0aa9c35e73e4902e31046e5d4ee1cb0c3fa0854787d8b22e5b41",
-  "release_date": "2026-09-10T16:58:46.323Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.12.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.12.0",
+  "sha256": "162eddd7a8bfd047bd05b9cd5056efd61146dfc2ca1f1fb105e14a62dc888f72",
+  "release_date": "2026-09-10T17:14:16.888Z",
   "channel": "stable",
-  "changelog": "## 5.11.0 — 2026-09-10\n\nPalettes de couleurs cliquables, icônes de bouton, HUD retiré, aperçu instantané et blindage thèmes.\n\n### Ajouté\n- **Palettes de couleurs cliquables** (fini les codes hex à taper) : Couleur d'accent (16 teintes), bouton, texte, bordures et fond (12 teintes chacune) — un clic sélectionne, ↺ revient au défaut du thème, l'aperçu se met à jour instantanément.\n- **Icône du bouton « Confirmer la commande »** : 10 icônes au choix (🛒 🛍️ 💳 ✅ 🚀 📦 ⚡ ❤️ ou aucune) — Réglages → Contenu.\n- **Blindage thèmes** : le formulaire neutralise les interférences des CSS tierces (reset ciblé des inputs/boutons/listes/images, accent-color natif, color-scheme clair/sombre) — compatible thèmes populaires et navigateurs nouvelle génération.\n- Aperçu en direct encore plus réactif : 250 ms.\n\n### Supprimé\n- **HUD admin sur le formulaire** (demande marchands : il gênait) — les valeurs de contrôle restent visibles via l'aperçu en direct et les Diagnostics."
+  "changelog": "## 5.12.0 — 2026-09-10\n\n8 styles de compte à rebours, personnalisation étendue (police, hauteur, largeur 1400) et licence Premium UNIQUE avec bouton PayPal direct.\n\n### Ajouté\n- **8 styles de compte à rebours** : Barre rayée, Pilule sombre, Ruban accent, Flip (horloge à volets), Néon (texte lumineux), Minimal (souligné), Bandeau plein (dégradé accent), Encadré (cadre accent).\n- **Personnalisation étendue** (Réglages → Apparence) : taille de la police (13-20 px) et hauteur du bouton (48-80 px), en plus de l'arrondi, de l'espacement et de la largeur.\n- **Largeur du formulaire jusqu'à 1400 px** pour les thèmes larges et les mises en page pleine largeur.\n- **Champ Quantité élargi** (60 px) pour un meilleur confort tactile.\n- **Licence Premium UNIQUE « tout inclus »** : la page Licence affiche désormais une seule carte Premium avec bouton PayPal direct vers le compte du vendeur (prix configurable dans la configuration vendeur). Les anciens prix multi-paliers restent compatibles mais ne sont plus affichés."
 }

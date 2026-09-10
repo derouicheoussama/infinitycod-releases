@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.6.2",
+  "version": "5.6.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.2",
-  "sha256": "2165b5f2de4a6f073569e7c86309d3487674b78188135d5ec62345b61c89e1c9",
-  "release_date": "2026-09-10T13:09:46.697Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.3",
+  "sha256": "2d88e72a6e88bc1dd41bcf54137ac1a069716e83b397d61817e4454082300e74",
+  "release_date": "2026-09-10T13:25:53.619Z",
   "channel": "stable",
-  "changelog": "## 5.6.2 — 2026-09-10\n\nNettoyage commercial : le verrou de formulaire n'apparaît plus dans le dashboard du marchand.\n\n### Modifié\n- **« Verrouiller le formulaire sans licence » retiré de l'interface** : c'est un réglage de distribution destiné au développeur-vendeur (Infinity Coder), pas aux marchands clients. Il se pilote désormais depuis wp-config.php du site client : define( 'INFINITYCOD_LOCK_FORM', true ); (ou false). Les verrous déjà actifs restent en place."
+  "changelog": "## 5.6.3 — 2026-09-10\n\nVous ne savez jamais si le formulaire affiche VOS réglages ? Le HUD admin répond instantanément.\n\n### Ajouté\n- **HUD administrateur sur le formulaire** : les admins voient un petit bandeau « ⚙ Accent · Captcha · Timer · Thème » affichant les valeurs RÉELLEMENT rendues par le serveur, avec lien direct vers les réglages. Invisible pour les clients. Si le HUD n'apparaît pas pour vous, la page servie est une copie en cache (LiteSpeed…).\n- **Diagnostics « persistance »** : test d'écriture → lecture immédiate qui détecte un cache d'objets défectueux faisant « disparaître » les sauvegardes ; affichage des réglages réellement stockés (accent, captcha, timer, thème) et de la date de dernière sauvegarde.\n\n### Modifié\n- Sous-menu « Commandes COD » renommé **« Commandes »**.\n\n### Diagnostic du 10/09 (site de démonstration)\nLe formulaire servait bien le moteur complet avec les valeurs par défaut : captcha/timer étaient simplement désactivés et la couleur n'avait pas été enregistrée — d'où le HUD et les tests de persistance ajoutés."
 }

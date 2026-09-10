@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.8.3",
+  "version": "5.9.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.8.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.8.3",
-  "sha256": "44616f4d7221378cc0f62e301568457709392158168b98ba8578d9790f9da8fd",
-  "release_date": "2026-09-10T15:30:08.812Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.9.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.9.0",
+  "sha256": "9adec8fae908f2581b7885a86e3ae3a5cf055802ab141ef6a1f665f77b28321a",
+  "release_date": "2026-09-10T15:45:33.881Z",
   "channel": "stable",
-  "changelog": "## 5.8.3 — 2026-09-10\n\nCorrectif pipeline : le harnais d'activation n'avait pas le stub du cache (échec CI v5.8.2 — relance automatique des tags précédents possible).\n\n### Corrigé\n- Stub wp_cache_delete manquant dans tools/test-activation.php (la CI Release échouait sur ce fatal — les révisions 5.8.2/5.8.3 du moteur de réglages sont validées)."
+  "changelog": "## 5.9.0 — 2026-09-10\n\nCRUD commandes complet (le D de Delete manquant est là) et synchronisation WooCommerce intégrale à l'édition.\n\n### Ajouté\n- **Suppression de commandes** : bouton 🗑 sur chaque ligne et action groupée « → Supprimer » — la ligne COD est supprimée et la commande WooCommerce part à la CORBEILLE (récupérable, jamais de suppression définitive automatique). Confirmation + capability + hook infinitycod_order_deleted.\n- **Action groupée « → Expédier »**.\n- **Édition 100 % synchronisée avec WooCommerce** : modifier client, téléphone, commune, wilaya ou quantité depuis le dashboard met à jour la commande WooCommerce (adresse facturation + livraison, quantité de la ligne produit, note client, total) — avant, seul le total était synchronisé.\n\n### Technique\n- Audits anti-régression étendus : 99 tests harnais + scan des champs POST + scan des méthodes."
 }

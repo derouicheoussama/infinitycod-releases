@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.6.1",
+  "version": "5.6.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.1",
-  "sha256": "5b42d3c4b911c67c75eab683e3a5581a9d26f0fd4b25bae732c29d8d7441ed6c",
-  "release_date": "2026-09-10T13:06:06.570Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.6.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.6.2",
+  "sha256": "2165b5f2de4a6f073569e7c86309d3487674b78188135d5ec62345b61c89e1c9",
+  "release_date": "2026-09-10T13:09:46.697Z",
   "channel": "stable",
-  "changelog": "## 5.6.1 — 2026-09-10\n\nBadge de notification des commandes en attente + dernier réglage déconnecté branché.\n\n### Ajouté\n- **Badge rond rouge « commandes en attente »** sur le menu InfinityCod ET sur le sous-menu « Commandes COD » : le nombre de commandes à confirmer est visible d'un coup d'œil, mis à jour à chaque chargement de l'admin. Désactivable dans Réglages → Avancé.\n\n### Corrigé\n- Le réglage « Journal InfinityCod » (Réglages → Avancé) était ignoré : désactivé, aucune écriture de log n'a lieu désormais.\n- Rappel automatique après chaque enregistrement : si le formulaire public ne change pas, vider le cache du plugin de cache (LiteSpeed, WP Rocket…)."
+  "changelog": "## 5.6.2 — 2026-09-10\n\nNettoyage commercial : le verrou de formulaire n'apparaît plus dans le dashboard du marchand.\n\n### Modifié\n- **« Verrouiller le formulaire sans licence » retiré de l'interface** : c'est un réglage de distribution destiné au développeur-vendeur (Infinity Coder), pas aux marchands clients. Il se pilote désormais depuis wp-config.php du site client : define( 'INFINITYCOD_LOCK_FORM', true ); (ou false). Les verrous déjà actifs restent en place."
 }

@@ -1,13 +1,13 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.3.0",
+  "version": "5.3.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.3.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.3.0",
-  "sha256": "a4ee087111db7606f10f25c5f8ae9a03ac4faf20dfe6c130589bdb6a5abb6ae5",
-  "release_date": "2026-09-10T04:57:21.048Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.3.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.3.1",
+  "sha256": "168ed405699b684f70ae6f8779abce30cae07b7c3eef25eed47d2780c8679c75",
+  "release_date": "2026-09-10T05:34:26.706Z",
   "channel": "stable"
 }

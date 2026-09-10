@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.9.0",
+  "version": "5.9.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.9.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.9.0",
-  "sha256": "9adec8fae908f2581b7885a86e3ae3a5cf055802ab141ef6a1f665f77b28321a",
-  "release_date": "2026-09-10T15:45:33.881Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.9.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.9.1",
+  "sha256": "c5c0b87f69c55d40088b58b5f5374ba2e63bc5bb86807a5a1abbe37e26e87506",
+  "release_date": "2026-09-10T15:58:46.433Z",
   "channel": "stable",
-  "changelog": "## 5.9.0 — 2026-09-10\n\nCRUD commandes complet (le D de Delete manquant est là) et synchronisation WooCommerce intégrale à l'édition.\n\n### Ajouté\n- **Suppression de commandes** : bouton 🗑 sur chaque ligne et action groupée « → Supprimer » — la ligne COD est supprimée et la commande WooCommerce part à la CORBEILLE (récupérable, jamais de suppression définitive automatique). Confirmation + capability + hook infinitycod_order_deleted.\n- **Action groupée « → Expédier »**.\n- **Édition 100 % synchronisée avec WooCommerce** : modifier client, téléphone, commune, wilaya ou quantité depuis le dashboard met à jour la commande WooCommerce (adresse facturation + livraison, quantité de la ligne produit, note client, total) — avant, seul le total était synchronisé.\n\n### Technique\n- Audits anti-régression étendus : 99 tests harnais + scan des champs POST + scan des méthodes."
+  "changelog": "## 5.9.1 — 2026-09-10\n\nSauvegarde INFAILLIBLE : chaque enregistrement est vérifié en base et disposé d'un repli automatique.\n\n### Ajouté\n- **Vérification après écriture** : après chaque « Enregistrer », le plugin RELIT la base et compare. Si les valeurs relues diffèrent (cache d'objets défectueux), un message rouge explicite s'affiche au lieu d'un faux succès.\n- **Repli AJAX automatique** : l'enregistrement passe d'abord par admin-ajax (contourne un éventuel blocage de admin-post.php par un pare-feu) ; en cas d'échec, repli transparent sur la soumission native.\n- En-têtes no-cache sur les écrans Réglages et Commandes.\n\n### ⚠️ IMPORTANT — version installée\nLe sondage direct du site de démonstration montre la 5.7.1 installée : les correctifs 5.7.2 → 5.9.1 (dont lecture directe en base et purge des caches) ne sont actifs qu'après installation de cette version. Mises à jour → Mettre à jour maintenant."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.20.1",
+  "version": "5.20.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.20.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.20.1",
-  "sha256": "c5efb55e9903d5885ed43a73e83fbc77942a21ba2c9b060f823563c2242f9c53",
-  "release_date": "2026-09-11T13:04:55.901Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.20.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.20.2",
+  "sha256": "df64fcca6c453e73754dbbd97cf7cfc7f2cd08420cbd6cb7492c3d16625dc4c8",
+  "release_date": "2026-09-11T14:31:40.682Z",
   "channel": "stable",
-  "changelog": "## 5.20.1 — 2026-09-11\n\nPage Mises à jour : affichage des détails réels (version, statut, empreinte) même quand le cache de détection est périmé.\n\n### Corrigé\n- **« Dernière version disponible : Inconnue »** alors que les sources répondent : la page lit les transients de détection qui peuvent contenir un marqueur « injoignable » périmé (rate-limit passager). Désormais, si aucune donnée n'est trouvée, les transients sont purgés et la détection est relancée une fois avant affichage.\n- L'empreinte SHA-256 réelle du manifest est affichée dans la ligne « Intégrité du package »."
+  "changelog": "## 5.20.2 — 2026-09-11\n\nConformité WordPress.org : readme.txt aux normes (Stable tag, Screenshots, Requires Plugins, Services externes disclosés) et assets officiels (bannière, icône, captures). Mise à jour GitHub désactivée d'elle-même si le plugin est hébergé sur le répertoire officiel WordPress.org (pattern dual-hosted standard)."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.20.0",
+  "version": "5.20.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.20.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.20.0",
-  "sha256": "b340e99ad5fb15404776ecac500c0307213b172831d864bc38aefbf042c7e110",
-  "release_date": "2026-09-11T12:50:23.137Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.20.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.20.1",
+  "sha256": "c5efb55e9903d5885ed43a73e83fbc77942a21ba2c9b060f823563c2242f9c53",
+  "release_date": "2026-09-11T13:04:55.901Z",
   "channel": "stable",
-  "changelog": "## 5.20.0 — 2026-09-11\n\nDésactivation universelle d'« Ajouter au panier » + style visuel « clean animé » inspiré des meilleurs checkouts COD.\n\n### Ajouté\n- **Masquage universel d'« Ajouter au panier »** : en plus des hooks WooCommerce, un CSS injecté masque le bouton du thème (quelles que soient les classes utilisées) — le formulaire COD devient le seul chemin d'achat, comme Yaxii.\n- **Bandeau de réassurance repensé** : grille de 4 avantages avec hover animé (2×2 sur mobile), style pilule.\n- **Entrée animée des champs** : apparition en cascade (stagger) au chargement.\n- **Offres par quantité** en pilules rouges animées.\n\n### Modifié\n- Champ Quantité : ombre douce et style pilule renforcé (blindage thèmes)."
+  "changelog": "## 5.20.1 — 2026-09-11\n\nPage Mises à jour : affichage des détails réels (version, statut, empreinte) même quand le cache de détection est périmé.\n\n### Corrigé\n- **« Dernière version disponible : Inconnue »** alors que les sources répondent : la page lit les transients de détection qui peuvent contenir un marqueur « injoignable » périmé (rate-limit passager). Désormais, si aucune donnée n'est trouvée, les transients sont purgés et la détection est relancée une fois avant affichage.\n- L'empreinte SHA-256 réelle du manifest est affichée dans la ligne « Intégrité du package »."
 }

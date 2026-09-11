@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.22.0",
+  "version": "5.22.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.22.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.22.0",
-  "sha256": "fbd5f3f4bb0e7371ce2c871e8eca0ca4cc20d6935ea6be71647c37a8c91fc615",
-  "release_date": "2026-09-11T17:37:51.578Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.22.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.22.1",
+  "sha256": "6b7ec0623309907f8fb869d40eabafc5b072ab53cabdb9c02d062180a7fa9af0",
+  "release_date": "2026-09-11T18:06:32.614Z",
   "channel": "stable",
-  "changelog": "## 5.22.0 — 2026-09-11\n\nEssai Premium : 7 jours, tout inclus, un clic — sans carte bancaire.\n\n### Ajouté\n- **Essai gratuit Premium (7 jours)** : nouveau bouton « 🚀 Démarrer mon essai de 7 jours » dans l'onglet Licence. Toutes les fonctionnalités Premium sont débloquées immédiatement (WhatsApp automatique, transporteurs, relances paniers, commande WhatsApp, offres par quantité) — une seule fois par site, sans carte ni engagement.\n- Pendant l'essai, le statut affiche « Essai Premium — X j restants » avec la date de fin ; la clé de licence reste activable à tout moment pour continuer sans interruption.\n- Le badge de statut (menu, pages du plugin) reflète l'état de l'essai ; à son terme, retour automatique et propre à la version gratuite — aucune donnée n'est perdue."
+  "changelog": "## 5.22.1 — 2026-09-11\n\n« Ajouter au panier » et quantité du thème masqués dès l'installation.\n\n### Modifié\n- **Par défaut à l'installation (et à la mise à jour, si le réglage n'a jamais été touché)** : l'option « Masquer Ajouter au panier + quantité du thème » est désormais **activée d'origine** — le bouton « Ajouter au panier », le champ quantité et les barres d'achat collantes du thème disparaissent des fiches produit ; le formulaire COD, avec son propre sélecteur de quantité, est le seul chemin d'achat.\n- La barre « add-to-cart » collante des thèmes (type Flatsome) est aussi couverte par le masquage.\n- Le marchand peut réactiver le bouton du thème à tout moment : Réglages → Formulaire → décocher « Masquer Ajouter au panier… » (son choix explicite reste prioritaire)."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.25.2",
+  "version": "5.25.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.2",
-  "sha256": "ac2bb5b833839cbc19b70bf424e4499d6a2b278d73d989f51676543590be6f11",
-  "release_date": "2026-09-11T22:03:54.139Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.3",
+  "sha256": "5ef2a403bdca922653cd8fc4160d69b071665762fc915686955670aad075c8a9",
+  "release_date": "2026-09-11T22:19:56.457Z",
   "channel": "stable",
-  "changelog": "## 5.25.2 — 2026-09-11\n\nArrondis 100 % harmonisés dans le formulaire et page Paniers abandonnés repensée.\n\n### Modifié\n- **Arrondis unifiés de bout en bout** : le message d'avertissement, la barre « livraison gratuite », le bloc « Total à payer » et le bouton « Appliquer » du code promo suivent désormais le même réglage « Arrondi des champs » que tous les autres champs — plus aucun élément du formulaire ne détone.\n\n### Amélioré\n- **Page Paniers abandonnés repensée** :\n  - **KPI « Valeur en jeu »** : la somme des paniers ouverts s'affiche en tête — l'argent à aller chercher en un coup d'œil.\n  - **Taux de récupération** sur la carte Récupérés.\n  - **Filtres par statut** (Tous / En attente / Récupérés / Archivés) avec compteurs, façon WordPress.\n  - **Statuts en français** avec badges colorés (En attente · Récupéré · Archivé) au lieu des clés techniques.\n  - **Temps relatif** sur chaque ligne (« il y a 12 min ») en plus de la date.\n  - **Téléphone cliquable** : le numéro ouvre directement WhatsApp avec le message de relance pré-rempli.\n  - **Bannière d'activation** si la relance automatique est désactivée, avec lien direct vers le réglage.\n  - **État vide soigné** avec explication du fonctionnement."
+  "changelog": "## 5.25.3 — 2026-09-11\n\nPage Transporteurs : grille 2 colonnes, logos des sociétés de livraison, statuts fiables.\n\n### Corrigé\n- **Statut de connexion toujours « Non configuré »** : une variable fantôme ($carriers au lieu de $manager) forçait l'affichage « Non configuré » sur toutes les cartes, même pour un transporteur connecté. Le badge « ✓ Connecté » est de nouveau fiable.\n- **Logo ZR Express jamais chargé** : le fichier s'appelait zr-express.svg alors que le code cherche zrexpress.svg — renommé.\n- **Import des bureaux Stopdesk** : le bouton était toujours branché sur Yalidine, même sur les cartes d'autres transporteurs — désormais branché sur le transporteur de la carte.\n\n### Amélioré\n- **Grille 2 colonnes** : les cartes transporteurs s'affichent en 2×2 (une colonne en dessous de 1100 px).\n- **Logos des sociétés de livraison redessinés** en vectoriel aux couleurs de marque (Yalidine bleu, ZR Express rouge, Maystro indigo, Noest navy/orange, E-Com bleu, DHD vert) — nets sur tous les écrans, et remplaçables par les fichiers officiels en déposant {code}.svg dans assets/front/img/carriers/."
 }

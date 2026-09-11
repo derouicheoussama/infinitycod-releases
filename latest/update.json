@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.14.0",
+  "version": "5.15.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.14.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.14.0",
-  "sha256": "535a35b89950c85dac58bd406296bd7b7a7c0e6537fc3ee3b7aac6a99f4e8166",
-  "release_date": "2026-09-11T01:36:01.307Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.15.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.15.1",
+  "sha256": "e617341a472b59c9632c7b06eb39bf127c4a5a5a833aecb7688effe41ffdb61b",
+  "release_date": "2026-09-11T02:01:43.609Z",
   "channel": "stable",
-  "changelog": "## 5.14.0 — 2026-09-11\n\nTimer entièrement personnalisable, onglet Licence repensé, statuts du tracking, et statistiques P&L ouvertes à tous.\n\n### Ajouté\n- **Compte à rebours personnalisable** : position (haut ou bas, avant le bouton), taille du texte (12-22 px), couleurs du fond et du texte via palettes cliquables — en plus des 8 styles.\n- **Onglet Tracking** : panneau de statut par plateforme (Meta Pixel, Conversions API, TikTok, Snapchat, GA4) avec voyant actif/inactif et diagnostic des éléments manquants.\n- **Onglet Licence amélioré** : section « Statut de la licence » structurée avec barre visuelle du temps restant (vert/orange/rouge) et explications.\n\n### Modifié\n- **Statistiques P&L actives pour TOUS** : plus de verrou licence sur les statistiques — CA, taux de confirmation, répartitions accessibles à toutes les boutiques. La page Licence et les mentions ont été mises à jour en conséquence."
+  "changelog": "## 5.15.0 — 2026-09-11\n\nModèles de formulaire en un clic, glisser-déposer fluide dans le Builder, champs et options de livraison compactés.\n\n### CORRECTIF MAJEUR\n- **Le Builder n'enregistrait pas réellement les champs personnalisés** : le formulaire envoyait un tableau natif alors que le code attendait du JSON — à chaque « Enregistrer », la configuration des champs était écrasée. Corrigé : le tableau natif est désormais traité correctement (c'était le bug derrière « les réglages champs ne s'appliquent pas »).\n\n### Ajouté\n- **Modèles de formulaire en 1 clic** : Simple (Nom, Téléphone, Wilaya, Commune), Ultra-rapide (Nom, Téléphone, Wilaya), Pro (+ Adresse obligatoire + Note). L'aperçu en direct se met à jour instantanément au choix du modèle.\n- **Glisser-déposer fluide** dans le Checkout Builder : poignée ⠿ sur chaque ligne, réordonnancement à la souris avec renumérotation automatique (les flèches ▲▼ restent disponibles).\n\n### Modifié\n- **Mode de livraison compact** : boîtes moins hautes et moins larges, prix plus discret.\n- **Champ Quantité** : stepper équilibré (56 px), blindé contre les styles des thèmes."
 }

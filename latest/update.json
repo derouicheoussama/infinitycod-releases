@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.24.3",
+  "version": "5.25.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.24.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.24.3",
-  "sha256": "9dfcdfbce9df9be5a6d181f3e52805b7a1c6bf04997a09079facb38be1ab836b",
-  "release_date": "2026-09-11T20:41:41.808Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.0",
+  "sha256": "357f8ce7c9b241f005268dcf25f828dc11a747eaf3e6aef4721ebf5a92702e19",
+  "release_date": "2026-09-11T21:24:10.826Z",
   "channel": "stable",
-  "changelog": "## 5.24.3 — 2026-09-11\n\nStepper Quantité encore plus léger et discret.\n\n### Modifié\n- **Taille réduite** : boutons − / + ramenés à 26 px (au lieu de 30), saisie 34 px, padding de la pilule resserré — le stepper pèse désormais visuellement autant qu'un champ normal au lieu de dominer la ligne. Le libellé « Quantité » et le stepper restent alignés sur une seule ligne pleine largeur."
+  "changelog": "## 5.25.0 — 2026-09-11\n\nAudit de sécurité complet du plugin (style revue de code automatisée) + scanner permanent.\n\n### Sécurité\n- **Secrets jamais renvoyés dans le HTML** : les 8 champs de clés secrètes (Chargily, reCAPTCHA v3, Conversions API Meta, Telegram, Cloud API WhatsApp, Ultramsg, TextMeBot, token GitHub) s'affichent désormais **vides** dans les réglages — plus aucune clé dans le code source de la page admin. Un champ laissé vide conserve la clé stockée ; il faut ressaisir la clé complète pour la remplacer.\n- **`unserialize()` durci** : `allowed_classes = false` dans la migration des réglages legacy (aucune instanciation d'objet possible).\n\n### Ajouté\n- **Scanner de sécurité permanent** (`npm run check`) : 10 familles de contrôles sur les 76 fichiers PHP — fonctions dangereuses (eval, unserialize, exec…), XSS par superglobales, secrets rendus dans le HTML, gardes ABSPATH, nonces CSRF sur tous les handlers admin-post et AJAX, permission_callback sur chaque route REST, interpolation de superglobales dans les requêtes SQL, redirections non sûres, AJAX public. Le build échoue à la moindre régression.\n\n### Verdict de l'audit\nInjection SQL : aucune (requêtes préparées ou tables internes uniquement) · XSS : aucune (échappement systématique) · CSRF : nonces partout · Autorisations : capacités vérifiées sur tous les handlers · Upload : zip contrôlé (capacité, nonce, HTTPS, mime) · Routes REST publiques : rate-limit, honeypot, captcha, HMAC — rien à signaler."
 }

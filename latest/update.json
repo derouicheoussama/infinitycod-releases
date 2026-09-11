@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.25.1",
+  "version": "5.25.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.1",
-  "sha256": "248ce894d6ff91e9f2217b2511132911faee61ad546bb322590ae816bcc7a75d",
-  "release_date": "2026-09-11T21:38:36.877Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.2",
+  "sha256": "ac2bb5b833839cbc19b70bf424e4499d6a2b278d73d989f51676543590be6f11",
+  "release_date": "2026-09-11T22:03:54.139Z",
   "channel": "stable",
-  "changelog": "## 5.25.1 — 2026-09-11\n\nInterface du formulaire affinée : en-tête épuré, champ Quantité redessiné, arrondis parfaitement uniformes.\n\n### Modifié\n- **Icône panier de l'en-tête supprimée** : elle occupait un carré pour rien. Elle devient optionnelle — si vous voulez une icône, renseignez-la dans Réglages → Formulaire → « Icône » (vide par défaut = aucune).\n- **Vignette produit agrandie** : 68 px sur desktop (au lieu de 56), 52 px sur mobile — le produit est bien visible dans l'en-tête.\n- **Champ Quantité restylé en contrôle segmenté** : un seul bloc arrondi `− │ 1 │ +` avec séparateurs fins, à la couleur d'accent — fini les deux gros boutons ronds flottants. Le bloc utilise exactement le même arrondi que les autres champs.\n- **Arrondis unifiés** : les boîtes « À domicile / Au bureau » et le champ code promo suivent désormais le même arrondi que tous les champs (réglage « Arrondi des champs » s'applique partout)."
+  "changelog": "## 5.25.2 — 2026-09-11\n\nArrondis 100 % harmonisés dans le formulaire et page Paniers abandonnés repensée.\n\n### Modifié\n- **Arrondis unifiés de bout en bout** : le message d'avertissement, la barre « livraison gratuite », le bloc « Total à payer » et le bouton « Appliquer » du code promo suivent désormais le même réglage « Arrondi des champs » que tous les autres champs — plus aucun élément du formulaire ne détone.\n\n### Amélioré\n- **Page Paniers abandonnés repensée** :\n  - **KPI « Valeur en jeu »** : la somme des paniers ouverts s'affiche en tête — l'argent à aller chercher en un coup d'œil.\n  - **Taux de récupération** sur la carte Récupérés.\n  - **Filtres par statut** (Tous / En attente / Récupérés / Archivés) avec compteurs, façon WordPress.\n  - **Statuts en français** avec badges colorés (En attente · Récupéré · Archivé) au lieu des clés techniques.\n  - **Temps relatif** sur chaque ligne (« il y a 12 min ») en plus de la date.\n  - **Téléphone cliquable** : le numéro ouvre directement WhatsApp avec le message de relance pré-rempli.\n  - **Bannière d'activation** si la relance automatique est désactivée, avec lien direct vers le réglage.\n  - **État vide soigné** avec explication du fonctionnement."
 }

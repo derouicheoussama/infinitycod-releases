@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.21.4",
+  "version": "5.22.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.4/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.4",
-  "sha256": "5248559e1c1a487ae67b001160a566555308ff1be59da5f4acde18fa54ac0a91",
-  "release_date": "2026-09-11T17:18:02.743Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.22.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.22.0",
+  "sha256": "fbd5f3f4bb0e7371ce2c871e8eca0ca4cc20d6935ea6be71647c37a8c91fc615",
+  "release_date": "2026-09-11T17:37:51.578Z",
   "channel": "stable",
-  "changelog": "## 5.21.4 — 2026-09-11\n\nNouveaux logos des cartes CIB et Edahabia embarqués directement dans le plugin.\n\n### Modifié\n- **Logos officiels des cartes** : les visuels génériques remplacés par des rendus vectoriels soignés aux couleurs de marque — badge carte blanche, swoosh doré et lettrage italique bleu pour **CIB** ; carte dorée dégradée avec le mot « EDAHABIA » et « الذهبية » pour **Edahabia**. Embarqués en SVG dans le plugin : nets sur tous les écrans, affichés directement dans le formulaire (bloc Méthode de paiement) et dans Réglages → Paiement, sans aucune configuration.\n- Personnalisable à tout moment : téléversement dans Réglages → Paiement ou dépôt de fichiers dans `assets/front/img/pay/` — vos visuels restent prioritaires."
+  "changelog": "## 5.22.0 — 2026-09-11\n\nEssai Premium : 7 jours, tout inclus, un clic — sans carte bancaire.\n\n### Ajouté\n- **Essai gratuit Premium (7 jours)** : nouveau bouton « 🚀 Démarrer mon essai de 7 jours » dans l'onglet Licence. Toutes les fonctionnalités Premium sont débloquées immédiatement (WhatsApp automatique, transporteurs, relances paniers, commande WhatsApp, offres par quantité) — une seule fois par site, sans carte ni engagement.\n- Pendant l'essai, le statut affiche « Essai Premium — X j restants » avec la date de fin ; la clé de licence reste activable à tout moment pour continuer sans interruption.\n- Le badge de statut (menu, pages du plugin) reflète l'état de l'essai ; à son terme, retour automatique et propre à la version gratuite — aucune donnée n'est perdue."
 }

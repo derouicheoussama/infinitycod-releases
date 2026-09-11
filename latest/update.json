@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.24.2",
+  "version": "5.24.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.24.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.24.2",
-  "sha256": "3335861dd5fceac98aab183d2bac07ea8e86b487d58cfa29187984d4f4a95bad",
-  "release_date": "2026-09-11T19:43:28.038Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.24.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.24.3",
+  "sha256": "9dfcdfbce9df9be5a6d181f3e52805b7a1c6bf04997a09079facb38be1ab836b",
+  "release_date": "2026-09-11T20:41:41.808Z",
   "channel": "stable",
-  "changelog": "## 5.24.2 — 2026-09-11\n\nChamp Quantité : blindage maximal contre les thèmes.\n\n### Modifié\n- **Champ Quantité blindé** : la ligne « Quantité + stepper » est verrouillée en `!important` (display flex, une seule ligne non repliable, libellé sans largeur imposée ni flottant, stepper non compressible) — les thèmes qui forcent `label{width:100%}` ou réécrivent le display du conteneur ne peuvent plus déformer le champ."
+  "changelog": "## 5.24.3 — 2026-09-11\n\nStepper Quantité encore plus léger et discret.\n\n### Modifié\n- **Taille réduite** : boutons − / + ramenés à 26 px (au lieu de 30), saisie 34 px, padding de la pilule resserré — le stepper pèse désormais visuellement autant qu'un champ normal au lieu de dominer la ligne. Le libellé « Quantité » et le stepper restent alignés sur une seule ligne pleine largeur."
 }

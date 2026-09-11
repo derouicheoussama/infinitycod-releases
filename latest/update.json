@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.13.0",
+  "version": "5.14.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.13.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.13.0",
-  "sha256": "ec262f9ca30a5ef09bfda5758f0d6a8e1628a38de7a904a363c086922e846046",
-  "release_date": "2026-09-11T01:11:12.290Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.14.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.14.0",
+  "sha256": "535a35b89950c85dac58bd406296bd7b7a7c0e6537fc3ee3b7aac6a99f4e8166",
+  "release_date": "2026-09-11T01:36:01.307Z",
   "channel": "stable",
-  "changelog": "## 5.13.0 — 2026-09-11\n\nChamps harmonisés moins hauts, 5e style « Flat design moderne », captcha déplacé en bas et navigation au clavier.\n\n### Ajouté\n- **Style « Flat design moderne »** (5e style) : champs remplis sans bordures ni ombres, en-tête clair à titre accent, bouton plat — le design tendance des checkout modernes.\n- **Captcha déplacé EN BAS du formulaire**, juste avant le bouton « Confirmer » : le client remplit d'abord, le anti-bot intervient à la fin (meilleure conversion, bots en fin de parcours).\n- **Touche Entrée = champ suivant** (et sur le dernier champ, soumission) — saisie rapide au clavier.\n- **Champ rempli = liseré vert** : repérage visuel immédiat de ce qui est déjà saisi.\n- **Compteur de caractères** sur la note (0 / 500).\n\n### Modifié\n- **Champs harmonisés** : même hauteur (46 px), même forme et même arrondi partout — inputs, selects, textarea dédié. Moins hauts qu'avant, plus denses."
+  "changelog": "## 5.14.0 — 2026-09-11\n\nTimer entièrement personnalisable, onglet Licence repensé, statuts du tracking, et statistiques P&L ouvertes à tous.\n\n### Ajouté\n- **Compte à rebours personnalisable** : position (haut ou bas, avant le bouton), taille du texte (12-22 px), couleurs du fond et du texte via palettes cliquables — en plus des 8 styles.\n- **Onglet Tracking** : panneau de statut par plateforme (Meta Pixel, Conversions API, TikTok, Snapchat, GA4) avec voyant actif/inactif et diagnostic des éléments manquants.\n- **Onglet Licence amélioré** : section « Statut de la licence » structurée avec barre visuelle du temps restant (vert/orange/rouge) et explications.\n\n### Modifié\n- **Statistiques P&L actives pour TOUS** : plus de verrou licence sur les statistiques — CA, taux de confirmation, répartitions accessibles à toutes les boutiques. La page Licence et les mentions ont été mises à jour en conséquence."
 }

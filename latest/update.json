@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.20.2",
+  "version": "5.21.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.20.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.20.2",
-  "sha256": "df64fcca6c453e73754dbbd97cf7cfc7f2cd08420cbd6cb7492c3d16625dc4c8",
-  "release_date": "2026-09-11T14:31:40.682Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.0",
+  "sha256": "f1d6341da53245c1decde252df10013dafa0e493e46db70374d0268c1cc81abf",
+  "release_date": "2026-09-11T15:15:35.599Z",
   "channel": "stable",
-  "changelog": "## 5.20.2 — 2026-09-11\n\nConformité WordPress.org : readme.txt aux normes (Stable tag, Screenshots, Requires Plugins, Services externes disclosés) et assets officiels (bannière, icône, captures). Mise à jour GitHub désactivée d'elle-même si le plugin est hébergé sur le répertoire officiel WordPress.org (pattern dual-hosted standard)."
+  "changelog": "## 5.21.0 — 2026-09-11\n\nStepper quantité redessiné, arrondi des champs réglable au pixel, page À propos actualisée.\n\n### Ajouté\n- **Réglage « Arrondi des champs » (0-30 px)** dans Apparence du formulaire : contrôle dédié appliqué à tous les champs (nom, téléphone, e-mail, wilaya, commune, adresse, note) via la variable CSS `--icod-radius-fields`. Vide = arrondi du thème.\n- **Page À propos enrichie** : bloc « Nouveautés récentes » (3 dernières versions du journal embarqué) et liste des fonctionnalités entièrement actualisée (Builder, codes promo, 8 styles de timer, export Excel, DMCA…).\n\n### Modifié\n- **Stepper Quantité redessiné** : pilule douce avec ombre légère, boutons − / + circulaires avec effet hover/appui, saisie centrale sans cadre, halo de focus à la couleur d'accent.\n\n### Corrigé\n- Import manquant `Settings` dans le gestionnaire des transporteurs (synchronisation automatique du suivi).\n- L'arrondi des champs Nom complet / Téléphone est désormais identique à celui des autres champs (variable commune), et pilotable depuis les réglages."
 }

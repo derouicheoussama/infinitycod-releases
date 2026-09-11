@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.12.1",
+  "version": "5.13.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.12.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.12.1",
-  "sha256": "4453fd569136622403748209da11cc0b20de04e7c4a95a39d43f1bbbf4bf9094",
-  "release_date": "2026-09-10T18:31:16.202Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.13.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.13.0",
+  "sha256": "ec262f9ca30a5ef09bfda5758f0d6a8e1628a38de7a904a363c086922e846046",
+  "release_date": "2026-09-11T01:11:12.290Z",
   "channel": "stable",
-  "changelog": "## 5.12.1 — 2026-09-10\n\nCorrection mobile complète à partir des captures réelles d'un site client (computime.dz).\n\n### Corrigé\n- **En-tête mobile** : plus jamais d'empilement mot par mot — en-tête compact sur une ligne (photo 42 px, icône 38 px, titre limité à 2 lignes, sous-titre 2 lignes, badge prix compact), l'ancien prix masqué sur petit écran.\n- **Barre collante** : total et bouton sur UNE seule ligne chacun (le bouton ne se replie plus sur deux lignes), texte nettoyé des espaces/éléments parasites, ellipsis de sécurité, paddings et ombre ajustés.\n- **Champ Quantité** : la bordure imposée par certains thèmes est neutralisée, stepper limité à 180 px.\n- Marges stock/timer/progression alignées sur le formulaire, bouton principal compact (48 px).\n\n### Mesuré\n- Aucun débordement à 390 px (vérification DOM élément par élément) ; compatible 320 px avec dégradation propre."
+  "changelog": "## 5.13.0 — 2026-09-11\n\nChamps harmonisés moins hauts, 5e style « Flat design moderne », captcha déplacé en bas et navigation au clavier.\n\n### Ajouté\n- **Style « Flat design moderne »** (5e style) : champs remplis sans bordures ni ombres, en-tête clair à titre accent, bouton plat — le design tendance des checkout modernes.\n- **Captcha déplacé EN BAS du formulaire**, juste avant le bouton « Confirmer » : le client remplit d'abord, le anti-bot intervient à la fin (meilleure conversion, bots en fin de parcours).\n- **Touche Entrée = champ suivant** (et sur le dernier champ, soumission) — saisie rapide au clavier.\n- **Champ rempli = liseré vert** : repérage visuel immédiat de ce qui est déjà saisi.\n- **Compteur de caractères** sur la note (0 / 500).\n\n### Modifié\n- **Champs harmonisés** : même hauteur (46 px), même forme et même arrondi partout — inputs, selects, textarea dédié. Moins hauts qu'avant, plus denses."
 }

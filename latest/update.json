@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.21.2",
+  "version": "5.21.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.2",
-  "sha256": "519421938af20681c6d7998e9002530bdecdc9c9909e4b8d9a3451d86d1659c8",
-  "release_date": "2026-09-11T16:27:16.845Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.3",
+  "sha256": "bf513dc7c1bbbcea39b48b044706a6d729428899aa6b76bb8b0687c646cd1e77",
+  "release_date": "2026-09-11T17:00:33.963Z",
   "channel": "stable",
-  "changelog": "## 5.21.2 — 2026-09-11\n\nAudit complet « chaque réglage s'enregistre et s'applique » : deux bugs du compte à rebours détectés et corrigés, nouveau garde-fou permanent.\n\n### Corrigé\n- **Apparence du compte à rebours jamais appliquée** : la taille du texte, la couleur du fond et la couleur du texte (Apparence du compte à rebours) s'enregistraient mais n'étaient jamais rendues — la variable de style n'était jamais construite (notice PHP incluse). Désormais appliquées en inline sur le timer.\n- **5 des 8 styles de compte à rebours ignorés** : Flip, Néon, Minimal, Bandeau et Encadré étaient reforcés en « Barre rayée » par une liste blanche périmée côté rendu (l'interface proposait bien les 8). Les 8 styles s'affichent maintenant réellement.\n- Nettoyage : suppression des réglages morts `paypal_price_personal/business/agency` (remplacés depuis par le prix unique de la licence Premium).\n\n### Ajouté\n- **Audit d'application permanent** (`npm run check`) : chaque clé du schéma de réglages doit avoir un consommateur réel dans le plugin — une option qui s'enregistre sans jamais s'applique fait échouer la CI. 139 clés vérifiées."
+  "changelog": "## 5.21.3 — 2026-09-11\n\nStepper Quantité compact et rapidité : dashboard allégé, scripts non bloquants.\n\n### Modifié\n- **Champ Quantité redimensionné** : pilule plus compacte (boutons 30 px au lieu de 36, saisie 38 px) — et le chiffre est désormais **exactement centré** quel que soit le thème : `padding` et `text-align` verrouillés contre les styles du thème qui décalaient le nombre.\n\n### Rapidité\n- **Badge « commandes en attente »** : le `COUNT(*)` qui s'exécutait sur CHAQUE page d'administration est mis en cache et invalidé à chaque création / changement de statut / suppression de commande (hooks du cycle de vie) + filet de sécurité 10 minutes — plus de requête de comptage inutile sur les boutiques à fort volume.\n- **Scripts non bloquants** : `defer` appliqué au JS du formulaire, au JS admin et à Chart.js (page Statistiques) — le rendu de la page ne les attend plus.\n- **reCAPTCHA v3** : pré-connexion au domaine Google quand le captcha est actif (~100-300 ms gagnées au premier chargement).\n- **Vignette produit** du formulaire : décodage asynchrone."
 }

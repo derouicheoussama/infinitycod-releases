@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.18.0",
+  "version": "5.19.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.18.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.18.0",
-  "sha256": "c795fa6742b6f89b0ad3cc57333f210944dd5e8fb7c889909702929486ab9b1f",
-  "release_date": "2026-09-11T03:28:26.073Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.19.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.19.0",
+  "sha256": "44a4541fa0c7ac759c6ef2cd860612b9ae48e7c30c79c5fdcea55147f112e6d1",
+  "release_date": "2026-09-11T03:54:22.571Z",
   "channel": "stable",
-  "changelog": "## 5.18.0 — 2026-09-11\n\nProtection, synchronisation transporteurs et personnalisation paiement : tout ce qui était demandé dans cette itération.\n\n### Ajouté\n- **Protection contre l'utilisation sans autorisation** : garde serveur sur l'API de commandes (403 sans licence quand le verrou est actif) + bannière admin persistante « 🔒 InfinityCod est verrouillé ». Activation : define( 'INFINITYCOD_LOCK_FORM', true ); dans wp-config.php du site client.\n- **Mention DMCA** : en-tête du plugin, README, readme.txt et pied de page admin (« 🔒 DMCA »).\n- **Wilayas & Tarifs** : case « Synchronisation automatique du suivi transporteur (chaque heure) » — activée par défaut, le cron ne tourne plus si vous la décochez.\n- **Onglet Paiement** : champs ID média pour les logos officiels CIB et Edahabia — vos logos remplacent les visuels intégrés dans le formulaire.\n- **Formulaire** : signature « 🔒 Protégé par Infinity Coder » sous le formulaire (désactivable) et badge de stock en alerte rouge « Seulement X restants ! » quand le stock est ≤ 5.\n- **Réglages → Options** : « Désactiver « Ajouter au panier » WooCommerce » — le formulaire COD devient le seul chemin d'achat sur la fiche produit."
+  "changelog": "## 5.19.0 — 2026-09-11\n\nModule complet de codes promo personnalisés + export Excel coloré des commandes.\n\n### Ajouté\n- **Codes promo InfinityCod** (menu 🎟️ Codes promo) : créez vos propres codes avec type de remise (pourcentage ou montant fixe), dates de début et de fin, sélection des produits concernés (vide = tous), minimum de commande et limite d'utilisations. Statut actif/inactif en un clic.\n- **Statistiques et historique** : par code — utilisations, remise totale accordée, CA généré, et historique complet des commandes ayant utilisé chaque code (date, client, total, statut).\n- Priorité : un code InfinityCod est validé avant tout coupon WooCommerce ; la validation reste 100 % côté serveur (dates, produits, minimum, limite).\n- **Export Excel des commandes** (.xls) : en-têtes bleus, lignes zébrées, statuts colorés, totaux en vert — organisé en colonnes claires.\n\n### Technique\n- Nouvelle table icod_promos (migration DB 1.6.0 automatique) : code unique, remise, période, produits, minimum, limite, compteurs d'usage et de CA.\n- Coupon::evaluate() accepte l'ID produit ; les codes InfinityCod sont prioritaires sur les coupons WooCommerce."
 }

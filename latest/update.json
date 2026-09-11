@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.25.0",
+  "version": "5.25.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.0",
-  "sha256": "357f8ce7c9b241f005268dcf25f828dc11a747eaf3e6aef4721ebf5a92702e19",
-  "release_date": "2026-09-11T21:24:10.826Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.1",
+  "sha256": "248ce894d6ff91e9f2217b2511132911faee61ad546bb322590ae816bcc7a75d",
+  "release_date": "2026-09-11T21:38:36.877Z",
   "channel": "stable",
-  "changelog": "## 5.25.0 — 2026-09-11\n\nAudit de sécurité complet du plugin (style revue de code automatisée) + scanner permanent.\n\n### Sécurité\n- **Secrets jamais renvoyés dans le HTML** : les 8 champs de clés secrètes (Chargily, reCAPTCHA v3, Conversions API Meta, Telegram, Cloud API WhatsApp, Ultramsg, TextMeBot, token GitHub) s'affichent désormais **vides** dans les réglages — plus aucune clé dans le code source de la page admin. Un champ laissé vide conserve la clé stockée ; il faut ressaisir la clé complète pour la remplacer.\n- **`unserialize()` durci** : `allowed_classes = false` dans la migration des réglages legacy (aucune instanciation d'objet possible).\n\n### Ajouté\n- **Scanner de sécurité permanent** (`npm run check`) : 10 familles de contrôles sur les 76 fichiers PHP — fonctions dangereuses (eval, unserialize, exec…), XSS par superglobales, secrets rendus dans le HTML, gardes ABSPATH, nonces CSRF sur tous les handlers admin-post et AJAX, permission_callback sur chaque route REST, interpolation de superglobales dans les requêtes SQL, redirections non sûres, AJAX public. Le build échoue à la moindre régression.\n\n### Verdict de l'audit\nInjection SQL : aucune (requêtes préparées ou tables internes uniquement) · XSS : aucune (échappement systématique) · CSRF : nonces partout · Autorisations : capacités vérifiées sur tous les handlers · Upload : zip contrôlé (capacité, nonce, HTTPS, mime) · Routes REST publiques : rate-limit, honeypot, captcha, HMAC — rien à signaler."
+  "changelog": "## 5.25.1 — 2026-09-11\n\nInterface du formulaire affinée : en-tête épuré, champ Quantité redessiné, arrondis parfaitement uniformes.\n\n### Modifié\n- **Icône panier de l'en-tête supprimée** : elle occupait un carré pour rien. Elle devient optionnelle — si vous voulez une icône, renseignez-la dans Réglages → Formulaire → « Icône » (vide par défaut = aucune).\n- **Vignette produit agrandie** : 68 px sur desktop (au lieu de 56), 52 px sur mobile — le produit est bien visible dans l'en-tête.\n- **Champ Quantité restylé en contrôle segmenté** : un seul bloc arrondi `− │ 1 │ +` avec séparateurs fins, à la couleur d'accent — fini les deux gros boutons ronds flottants. Le bloc utilise exactement le même arrondi que les autres champs.\n- **Arrondis unifiés** : les boîtes « À domicile / Au bureau » et le champ code promo suivent désormais le même arrondi que tous les champs (réglage « Arrondi des champs » s'applique partout)."
 }

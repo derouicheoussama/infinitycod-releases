@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.21.3",
+  "version": "5.21.4",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.3",
-  "sha256": "bf513dc7c1bbbcea39b48b044706a6d729428899aa6b76bb8b0687c646cd1e77",
-  "release_date": "2026-09-11T17:00:33.963Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.4/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.4",
+  "sha256": "5248559e1c1a487ae67b001160a566555308ff1be59da5f4acde18fa54ac0a91",
+  "release_date": "2026-09-11T17:18:02.743Z",
   "channel": "stable",
-  "changelog": "## 5.21.3 — 2026-09-11\n\nStepper Quantité compact et rapidité : dashboard allégé, scripts non bloquants.\n\n### Modifié\n- **Champ Quantité redimensionné** : pilule plus compacte (boutons 30 px au lieu de 36, saisie 38 px) — et le chiffre est désormais **exactement centré** quel que soit le thème : `padding` et `text-align` verrouillés contre les styles du thème qui décalaient le nombre.\n\n### Rapidité\n- **Badge « commandes en attente »** : le `COUNT(*)` qui s'exécutait sur CHAQUE page d'administration est mis en cache et invalidé à chaque création / changement de statut / suppression de commande (hooks du cycle de vie) + filet de sécurité 10 minutes — plus de requête de comptage inutile sur les boutiques à fort volume.\n- **Scripts non bloquants** : `defer` appliqué au JS du formulaire, au JS admin et à Chart.js (page Statistiques) — le rendu de la page ne les attend plus.\n- **reCAPTCHA v3** : pré-connexion au domaine Google quand le captcha est actif (~100-300 ms gagnées au premier chargement).\n- **Vignette produit** du formulaire : décodage asynchrone."
+  "changelog": "## 5.21.4 — 2026-09-11\n\nNouveaux logos des cartes CIB et Edahabia embarqués directement dans le plugin.\n\n### Modifié\n- **Logos officiels des cartes** : les visuels génériques remplacés par des rendus vectoriels soignés aux couleurs de marque — badge carte blanche, swoosh doré et lettrage italique bleu pour **CIB** ; carte dorée dégradée avec le mot « EDAHABIA » et « الذهبية » pour **Edahabia**. Embarqués en SVG dans le plugin : nets sur tous les écrans, affichés directement dans le formulaire (bloc Méthode de paiement) et dans Réglages → Paiement, sans aucune configuration.\n- Personnalisable à tout moment : téléversement dans Réglages → Paiement ou dépôt de fichiers dans `assets/front/img/pay/` — vos visuels restent prioritaires."
 }

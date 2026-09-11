@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.19.1",
+  "version": "5.20.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.19.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.19.1",
-  "sha256": "21fcec5fb7eeaa1ac16452e4f45c845758422467a174ed6976ae9e63a91344ef",
-  "release_date": "2026-09-11T12:35:55.958Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.20.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.20.0",
+  "sha256": "b340e99ad5fb15404776ecac500c0307213b172831d864bc38aefbf042c7e110",
+  "release_date": "2026-09-11T12:50:23.137Z",
   "channel": "stable",
-  "changelog": "## 5.19.0 — 2026-09-11\n\nModule complet de codes promo personnalisés + export Excel coloré des commandes.\n\n### Ajouté\n- **Codes promo InfinityCod** (menu 🎟️ Codes promo) : créez vos propres codes avec type de remise (pourcentage ou montant fixe), dates de début et de fin, sélection des produits concernés (vide = tous), minimum de commande et limite d'utilisations. Statut actif/inactif en un clic.\n- **Statistiques et historique** : par code — utilisations, remise totale accordée, CA généré, et historique complet des commandes ayant utilisé chaque code (date, client, total, statut).\n- Priorité : un code InfinityCod est validé avant tout coupon WooCommerce ; la validation reste 100 % côté serveur (dates, produits, minimum, limite).\n- **Export Excel des commandes** (.xls) : en-têtes bleus, lignes zébrées, statuts colorés, totaux en vert — organisé en colonnes claires.\n\n### Technique\n- Nouvelle table icod_promos (migration DB 1.6.0 automatique) : code unique, remise, période, produits, minimum, limite, compteurs d'usage et de CA.\n- Coupon::evaluate() accepte l'ID produit ; les codes InfinityCod sont prioritaires sur les coupons WooCommerce."
+  "changelog": "## 5.20.0 — 2026-09-11\n\nDésactivation universelle d'« Ajouter au panier » + style visuel « clean animé » inspiré des meilleurs checkouts COD.\n\n### Ajouté\n- **Masquage universel d'« Ajouter au panier »** : en plus des hooks WooCommerce, un CSS injecté masque le bouton du thème (quelles que soient les classes utilisées) — le formulaire COD devient le seul chemin d'achat, comme Yaxii.\n- **Bandeau de réassurance repensé** : grille de 4 avantages avec hover animé (2×2 sur mobile), style pilule.\n- **Entrée animée des champs** : apparition en cascade (stagger) au chargement.\n- **Offres par quantité** en pilules rouges animées.\n\n### Modifié\n- Champ Quantité : ombre douce et style pilule renforcé (blindage thèmes)."
 }

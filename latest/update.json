@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.25.4",
+  "version": "5.25.5",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.4/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.4",
-  "sha256": "b9f36c3869ad50817dde57a7cd31b4a100f97a0d0c7648216b66c355f4ad9742",
-  "release_date": "2026-09-11T22:34:12.932Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.5/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.5",
+  "sha256": "1575c1c9f76db28a3449e66dd494b42ed2044c3248e52ca28d3f3c2ff585bcfe",
+  "release_date": "2026-09-11T23:06:16.579Z",
   "channel": "stable",
-  "changelog": "## 5.25.4 — 2026-09-11\n\nPourquoi les nouveautés n'apparaissaient pas pour les visiteurs : correction du cache.\n\n### Corrigé\n- **Caches de pages purgés après chaque mise à jour du plugin** : le diagnostic était clair — l'aperçu admin (rendu à la fraîche) montrait les nouveautés, mais les visiteurs continuaient de voir l'ancien formulaire servi par le cache de pages (LiteSpeed, WP Rocket, W3TC, SiteGround, WP Super Cache, WP Fastest Cache, Autoptimize…). Désormais, dès que le plugin est mis à jour — automatiquement, manuellement ou installé depuis un zip — tous ces caches sont purgés automatiquement, ainsi que via l'action `infinitycod_purge_page_caches` pour les CDN et hébergeurs spécifiques.\n- La purge centralisée (nouveau helper `CachePurge`) est aussi déclenchée par chaque sauvegarde de réglages et couvre désormais Breeze en plus des caches précédents.\n- La purge post-mise-à-jour couvre à la fois l'action « update » (mise à jour WordPress) et « install » (installation manuelle depuis un zip sur la page Mises à jour)."
+  "changelog": "## 5.25.5 — 2026-09-12\n\nResponsive durci : le formulaire tient sur PC, tablette et mobile, même dans les thèmes intrusifs.\n\n### Ajouté\n- **Reset anti-thème dans le formulaire** : `box-sizing` forcé, flottants de labels neutralisés, largeurs maximales bornées sur tous les inputs — les thèmes qui imposent leurs styles ne peuvent plus déformer les champs.\n- **Filets de sécurité très petits écrans (≤360 px)** : les paires de champs (Nom/Téléphone, Wilaya/Commune) passent en une colonne, et la ligne Quantité se replie proprement (libellé au-dessus du stepper) plutôt que de se comprimer.\n- Vérifié par captures réelles à 390 px (mobile), 768 px (tablette) et 1280 px (PC) : aucun débordement, aucun champ coupé.\n\n### Note\n- Si le formulaire paraissait déformé sur un site précis après mise à jour, videz le cache de pages une fois : depuis la 5.25.4, la purge est automatique à chaque mise à jour du plugin."
 }

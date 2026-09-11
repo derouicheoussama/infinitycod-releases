@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.16.0",
+  "version": "5.17.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.16.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.16.0",
-  "sha256": "09caeaa08565b93579082706453342eab0fe33b6c0fcefb621d2615cbd5de74f",
-  "release_date": "2026-09-11T02:10:22.394Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.17.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.17.0",
+  "sha256": "de40ed9c84a8879decc3765ffa6a3779ee850102e1d1355a19fbe1d65a65c6bc",
+  "release_date": "2026-09-11T02:29:31.406Z",
   "channel": "stable",
-  "changelog": "## 5.16.0 — 2026-09-11\n\nDashboard Commandes : modale Détails enrichie et animée, actions rapides et recherche fluide.\n\n### Ajouté\n- **Modale Détails enrichie et animée** : ouverture/fermeture fluides (fondu + zoom), cartes détaillées (coordonnées, destination, produit, montants avec code promo, note complète, risque/transporteur), bouton 📋 copier le téléphone avec notification toast, bouton 🚫 Blacklister et 🗑 Supprimer directement dans la modale.\n- **Recherche fluide** : la recherche (nom, téléphone) filtre automatiquement après la saisie, sans cliquer.\n- **Suppression groupée sécurisée** : confirmation avant mise à la corbeille.\n\n### Modifié\n- Le champ Quantité et les boîtes de livraison sont neutralisés contre les styles des thèmes (plus de cadres parasites)."
+  "changelog": "## 5.17.0 — 2026-09-11\n\nProtection contre l'utilisation sans autorisation + mention DMCA + purge du code (plugin plus léger).\n\n### Ajouté\n- **Verrou d'autorisation serveur** : quand le verrou développeur est actif (constante wp-config), l'API de création de commandes refuse toute soumission (403) sur les copies sans licence — le formulaire ET le backend sont protégés.\n- **Bannière admin persistante** si le verrou est actif sans licence : « 🔒 InfinityCod est verrouillé — Activer ma licence ».\n- Mention **DMCA** : en-tête du plugin, README et readme.txt.\n\n### Modifié\n- **Purge** : règles CSS mortes retirées du stylesheet front (styles admin dupliqués) — assets plus légers.\n- Le pied de page admin affiche « 🔒 DMCA ».\n\n### Note\n- Le système de mise à jour GitHub n'a PAS été touché (non-régression vérifiée)."
 }

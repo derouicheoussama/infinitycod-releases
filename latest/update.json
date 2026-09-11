@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.25.3",
+  "version": "5.25.4",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.3",
-  "sha256": "5ef2a403bdca922653cd8fc4160d69b071665762fc915686955670aad075c8a9",
-  "release_date": "2026-09-11T22:19:56.457Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.25.4/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.25.4",
+  "sha256": "b9f36c3869ad50817dde57a7cd31b4a100f97a0d0c7648216b66c355f4ad9742",
+  "release_date": "2026-09-11T22:34:12.932Z",
   "channel": "stable",
-  "changelog": "## 5.25.3 — 2026-09-11\n\nPage Transporteurs : grille 2 colonnes, logos des sociétés de livraison, statuts fiables.\n\n### Corrigé\n- **Statut de connexion toujours « Non configuré »** : une variable fantôme ($carriers au lieu de $manager) forçait l'affichage « Non configuré » sur toutes les cartes, même pour un transporteur connecté. Le badge « ✓ Connecté » est de nouveau fiable.\n- **Logo ZR Express jamais chargé** : le fichier s'appelait zr-express.svg alors que le code cherche zrexpress.svg — renommé.\n- **Import des bureaux Stopdesk** : le bouton était toujours branché sur Yalidine, même sur les cartes d'autres transporteurs — désormais branché sur le transporteur de la carte.\n\n### Amélioré\n- **Grille 2 colonnes** : les cartes transporteurs s'affichent en 2×2 (une colonne en dessous de 1100 px).\n- **Logos des sociétés de livraison redessinés** en vectoriel aux couleurs de marque (Yalidine bleu, ZR Express rouge, Maystro indigo, Noest navy/orange, E-Com bleu, DHD vert) — nets sur tous les écrans, et remplaçables par les fichiers officiels en déposant {code}.svg dans assets/front/img/carriers/."
+  "changelog": "## 5.25.4 — 2026-09-11\n\nPourquoi les nouveautés n'apparaissaient pas pour les visiteurs : correction du cache.\n\n### Corrigé\n- **Caches de pages purgés après chaque mise à jour du plugin** : le diagnostic était clair — l'aperçu admin (rendu à la fraîche) montrait les nouveautés, mais les visiteurs continuaient de voir l'ancien formulaire servi par le cache de pages (LiteSpeed, WP Rocket, W3TC, SiteGround, WP Super Cache, WP Fastest Cache, Autoptimize…). Désormais, dès que le plugin est mis à jour — automatiquement, manuellement ou installé depuis un zip — tous ces caches sont purgés automatiquement, ainsi que via l'action `infinitycod_purge_page_caches` pour les CDN et hébergeurs spécifiques.\n- La purge centralisée (nouveau helper `CachePurge`) est aussi déclenchée par chaque sauvegarde de réglages et couvre désormais Breeze en plus des caches précédents.\n- La purge post-mise-à-jour couvre à la fois l'action « update » (mise à jour WordPress) et « install » (installation manuelle depuis un zip sur la page Mises à jour)."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.24.1",
+  "version": "5.24.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.24.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.24.1",
-  "sha256": "4e85aa99bfa230661c5e1ab3e83970938d39531df56f8a704fabd6530a6ace88",
-  "release_date": "2026-09-11T19:20:18.359Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.24.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.24.2",
+  "sha256": "3335861dd5fceac98aab183d2bac07ea8e86b487d58cfa29187984d4f4a95bad",
+  "release_date": "2026-09-11T19:43:28.038Z",
   "channel": "stable",
-  "changelog": "## 5.24.1 — 2026-09-11\n\nChamp Quantité compact et bien placé : libellé et stepper sur une seule ligne.\n\n### Modifié\n- **Champ Quantité repensé** : le libellé « Quantité » et le stepper (− / +) partagent désormais **une seule ligne pleine largeur** — libellé à gauche, stepper à droite, alignés verticalement. Fini le libellé empilé au-dessus de la pilule qui faisait perdre une ligne entière sur mobile : le champ est plus compact, équilibré et reste parfaitement lisible.\n- Vérification complète du plugin avant publication : 192 vérifications du moteur de formulaire, audit des 141 clés de réglages (chaque option enregistrée ET appliquée), audits anti-corruption, imports, attributions, harnais d'activation — tout au vert."
+  "changelog": "## 5.24.2 — 2026-09-11\n\nChamp Quantité : blindage maximal contre les thèmes.\n\n### Modifié\n- **Champ Quantité blindé** : la ligne « Quantité + stepper » est verrouillée en `!important` (display flex, une seule ligne non repliable, libellé sans largeur imposée ni flottant, stepper non compressible) — les thèmes qui forcent `label{width:100%}` ou réécrivent le display du conteneur ne peuvent plus déformer le champ."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.21.0",
+  "version": "5.21.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.0",
-  "sha256": "f1d6341da53245c1decde252df10013dafa0e493e46db70374d0268c1cc81abf",
-  "release_date": "2026-09-11T15:15:35.599Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.1",
+  "sha256": "f6582c0f1fcc488e47749d77f348aa7ce87c0716d3e231195f538fd3de8ec957",
+  "release_date": "2026-09-11T15:48:14.166Z",
   "channel": "stable",
-  "changelog": "## 5.21.0 — 2026-09-11\n\nStepper quantité redessiné, arrondi des champs réglable au pixel, page À propos actualisée.\n\n### Ajouté\n- **Réglage « Arrondi des champs » (0-30 px)** dans Apparence du formulaire : contrôle dédié appliqué à tous les champs (nom, téléphone, e-mail, wilaya, commune, adresse, note) via la variable CSS `--icod-radius-fields`. Vide = arrondi du thème.\n- **Page À propos enrichie** : bloc « Nouveautés récentes » (3 dernières versions du journal embarqué) et liste des fonctionnalités entièrement actualisée (Builder, codes promo, 8 styles de timer, export Excel, DMCA…).\n\n### Modifié\n- **Stepper Quantité redessiné** : pilule douce avec ombre légère, boutons − / + circulaires avec effet hover/appui, saisie centrale sans cadre, halo de focus à la couleur d'accent.\n\n### Corrigé\n- Import manquant `Settings` dans le gestionnaire des transporteurs (synchronisation automatique du suivi).\n- L'arrondi des champs Nom complet / Téléphone est désormais identique à celui des autres champs (variable commune), et pilotable depuis les réglages."
+  "changelog": "## 5.21.1 — 2026-09-11\n\nCorrectifs visuels constatés sur une boutique cliente (mobile) : Quantité étirée par le thème, tirets « — » en mode de livraison, total de la barre collante vide.\n\n### Corrigé\n- **Champ Quantité déformé sur certains thèmes** : le thème peut forcer `input{width:100%}` et étirer la pilule sur toute la ligne. La pilule est désormais en `width:max-content` et la largeur de l'input est triple-bornée (44 px) — la forme reste intacte quel que soit le thème.\n- **Cases « Mode de livraison »** : plus de tiret « — » qui ressemblait à un bug tant qu'aucune wilaya n'était choisie — la ligne de tarif reste masquée jusqu'à l'affichage du vrai prix (ou de « Gratuit »).\n- **Barre collante mobile** : le total affiche dès le chargement le prix du produit × quantité (au lieu d'un « — » vide) ; il intègre la livraison dès que la wilaya est sélectionnée."
 }

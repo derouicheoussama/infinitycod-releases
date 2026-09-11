@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.21.1",
+  "version": "5.21.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.1",
-  "sha256": "f6582c0f1fcc488e47749d77f348aa7ce87c0716d3e231195f538fd3de8ec957",
-  "release_date": "2026-09-11T15:48:14.166Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.21.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.21.2",
+  "sha256": "519421938af20681c6d7998e9002530bdecdc9c9909e4b8d9a3451d86d1659c8",
+  "release_date": "2026-09-11T16:27:16.845Z",
   "channel": "stable",
-  "changelog": "## 5.21.1 — 2026-09-11\n\nCorrectifs visuels constatés sur une boutique cliente (mobile) : Quantité étirée par le thème, tirets « — » en mode de livraison, total de la barre collante vide.\n\n### Corrigé\n- **Champ Quantité déformé sur certains thèmes** : le thème peut forcer `input{width:100%}` et étirer la pilule sur toute la ligne. La pilule est désormais en `width:max-content` et la largeur de l'input est triple-bornée (44 px) — la forme reste intacte quel que soit le thème.\n- **Cases « Mode de livraison »** : plus de tiret « — » qui ressemblait à un bug tant qu'aucune wilaya n'était choisie — la ligne de tarif reste masquée jusqu'à l'affichage du vrai prix (ou de « Gratuit »).\n- **Barre collante mobile** : le total affiche dès le chargement le prix du produit × quantité (au lieu d'un « — » vide) ; il intègre la livraison dès que la wilaya est sélectionnée."
+  "changelog": "## 5.21.2 — 2026-09-11\n\nAudit complet « chaque réglage s'enregistre et s'applique » : deux bugs du compte à rebours détectés et corrigés, nouveau garde-fou permanent.\n\n### Corrigé\n- **Apparence du compte à rebours jamais appliquée** : la taille du texte, la couleur du fond et la couleur du texte (Apparence du compte à rebours) s'enregistraient mais n'étaient jamais rendues — la variable de style n'était jamais construite (notice PHP incluse). Désormais appliquées en inline sur le timer.\n- **5 des 8 styles de compte à rebours ignorés** : Flip, Néon, Minimal, Bandeau et Encadré étaient reforcés en « Barre rayée » par une liste blanche périmée côté rendu (l'interface proposait bien les 8). Les 8 styles s'affichent maintenant réellement.\n- Nettoyage : suppression des réglages morts `paypal_price_personal/business/agency` (remplacés depuis par le prix unique de la licence Premium).\n\n### Ajouté\n- **Audit d'application permanent** (`npm run check`) : chaque clé du schéma de réglages doit avoir un consommateur réel dans le plugin — une option qui s'enregistre sans jamais s'applique fait échouer la CI. 139 clés vérifiées."
 }

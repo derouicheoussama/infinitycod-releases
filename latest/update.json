@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.28.0",
+  "version": "5.28.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.28.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.28.0",
-  "sha256": "5eead28e72b4b689aa9c476b66e4746c28ab7af539a6937015d9ced95ef2c799",
-  "release_date": "2026-09-12T01:49:24.149Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.28.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.28.1",
+  "sha256": "68c288c4a3c4d8082bd11253cd2b2be380c72eb8b1862ad80a50847c0dc89a51",
+  "release_date": "2026-09-12T02:54:38.528Z",
   "channel": "stable",
-  "changelog": "## 5.28.0 — 2026-09-12\n\nResponsive réellement adaptatif (container queries partout), simulateur d'écran dans l'admin, erreurs cachées corrigées.\n\n### Ajouté\n- **Responsive par container queries** : les 7 points de rupture du formulaire réagissent désormais à la **largeur réelle du conteneur** du formulaire et non plus à celle de l'écran. Résultat : le formulaire est correctement affiché sur PC, tablette et mobile, même placé dans une sidebar, une colonne de page ou un popup — l'adaptation suit toujours son propre espace.\n- **Simulateur d'écran dans l'aperçu admin** : boutons « 📱 Mobile (390) · 📋 Tablette (768) · 💻 Pleine largeur » qui redimensionnent l'aperçu — vous voyez le rendu réel de chaque appareil sans quitter les réglages.\n- **Aperçu admin pleinement fonctionnel** : le JavaScript du formulaire (barre collante, stepper, toasts, validation) tourne désormais dans l'aperçu — il était totalement absent des versions précédentes.\n\n### Corrigé\n- **Page Dashboard : 12 warnings PHP sur base vide** (« Trying to access array offset on null ») — structure par défaut fournie quand aucune commande n'existe sur la période.\n- **Champ dupliqué dans les réglages** : le texte du compte à rebours s'affichait deux fois.\n- **Sandbox de l'aperçu** supprimée : elle bloquait silencieusement le JavaScript de l'aperçu (fonctionne maintenant avec le même rendu que le site public).\n\n### Vérification\n- Pages admin rendues sur un WordPress réel de test : **0 warning, 0 erreur** (carriers, abandoned, dashboard, about, updates, diagnostics).\n- Harnais moteur : 222 vérifications · scanner de sécurité : rien à signaler · activation : OK."
+  "changelog": "## 5.28.1 — 2026-09-12\n\nFiable après mise à jour : la migration de position purge désormais les caches, et le minuteur redevient lisible.\n\n### Corrigé\n- **Purge des caches après chaque migration** : la migration qui bascule le formulaire en pleine largeur modifie le rendu public — les caches de pages sont maintenant purgés aussitôt, pour que les visiteurs voient le nouveau formulaire immédiatement (et non après expiration du cache).\n- **Minuteur illisible sur certains thèmes** : le texte « Offre valable encore… » héritait d'une couleur trop pâle — il est maintenant en rouge foncé lisible, en gras.\n\n### Rappel\n- La migration « formulaire en pleine largeur » s'exécute à la première visite d'une page d'administration après la mise à jour : ouvrez simplement le tableau de bord WordPress une fois."
 }

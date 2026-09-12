@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.27.0",
+  "version": "5.27.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.27.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.27.0",
-  "sha256": "5f928b6c497545ddf8957e4ba5ee7bd539459e87dc691328598975a4c371f2da",
-  "release_date": "2026-09-12T00:41:36.855Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.27.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.27.1",
+  "sha256": "43f08d372ac366806f4d5cbe92f7092702a7db8149c5e081ffb209d6d8b4826d",
+  "release_date": "2026-09-12T01:11:08.062Z",
   "channel": "stable",
-  "changelog": "## 5.27.0 — 2026-09-12\n\nLe formulaire COD sort de la colonne étroite du produit : pleine largeur par défaut sur toutes les boutiques.\n\n### Modifié\n- **Nouvelle position « Pleine largeur — sous la fiche produit » (défaut)** : le formulaire s'insère sous la fiche (galerie + résumé), sur **toute la largeur du conteneur** — ce qui déclenche automatiquement le checkout 2 colonnes sur PC (champs à gauche, récap + bouton collant à droite), grâce aux container queries.\n- **Migration automatique** : les boutiques encore sur l'ancien placement « Après le résumé produit » (colonne étroite du thème, ~400 px) basculent en pleine largeur lors de la mise à jour — sauf si le marchand avait choisi lui-même une autre position (son choix reste respecté).\n- Les autres positions restent disponibles dans Réglages → Formulaire pour les thèmes où l'emplacement résumé est préféré."
+  "changelog": "## 5.27.1 — 2026-09-12\n\nOrganisation du formulaire en blocs lisibles, inspirée des meilleurs checkouts.\n\n### Ajouté\n- **Titres de sections dans le formulaire** : « 👤 Vos coordonnées » avant le bloc nom/téléphone/email et « 📍 Livraison » avant wilaya/commune/adresse — le client se repère d'un coup d'œil, comme sur les landing pages qui convertissent le mieux. Les titres suivent l'ordre du Checkout Builder et ne s'affichent que si les champs du bloc sont actifs.\n- **Réassurance positionnable en haut** : nouvelle option « Afficher la réassurance EN HAUT du formulaire (avant les champs) » — le bloc paiement à la livraison / 58 wilayas / colis vérifié passe avant les champs, à la manière des landing pages à forte conversion. Désactivé par défaut (le bloc reste sous le bouton)."
 }

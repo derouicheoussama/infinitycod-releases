@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.26.1",
+  "version": "5.27.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.26.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.26.1",
-  "sha256": "75187100c502c1efd2c0bdd10c870d62d2c4ec5da789029fc42b0511154da2df",
-  "release_date": "2026-09-12T00:11:33.780Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.27.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.27.0",
+  "sha256": "5f928b6c497545ddf8957e4ba5ee7bd539459e87dc691328598975a4c371f2da",
+  "release_date": "2026-09-12T00:41:36.855Z",
   "channel": "stable",
-  "changelog": "## 5.26.1 — 2026-09-12\n\nStepper Quantité tactile et barre « Commander » premium.\n\n### Amélioré\n- **Stepper Quantité tactile sur mobile** : boutons − / + portés à 38 px (cibles tactiles confortables, plus de double-tap parasite grâce à `touch-action`), chiffre plus lisible. La ligne Quantité peut se replier proprement sous 360 px.\n- **Barre « Commander » premium** : bouton pleine largeur de 54 px avec dégradé accent, ombre portée et retour d'appui (scale) ; entrée animée par glissement depuis le bas ; arrière-plan semi-transparent avec flou (`backdrop-filter`) quand le navigateur le supporte ; total agrandi et aligné.\n\n### Corrigé\n- **Aperçu des réglages pleinement fonctionnel** : le générateur d'aperçu n'incluait jamais form.js — la barre collante, les toasts, le stepper et la validation n'y étaient pas testables. L'aperçu embarque maintenant le JS + les données `icodFront` : ce que vous voyez dans l'aperçu est exactement ce que voient vos clients."
+  "changelog": "## 5.27.0 — 2026-09-12\n\nLe formulaire COD sort de la colonne étroite du produit : pleine largeur par défaut sur toutes les boutiques.\n\n### Modifié\n- **Nouvelle position « Pleine largeur — sous la fiche produit » (défaut)** : le formulaire s'insère sous la fiche (galerie + résumé), sur **toute la largeur du conteneur** — ce qui déclenche automatiquement le checkout 2 colonnes sur PC (champs à gauche, récap + bouton collant à droite), grâce aux container queries.\n- **Migration automatique** : les boutiques encore sur l'ancien placement « Après le résumé produit » (colonne étroite du thème, ~400 px) basculent en pleine largeur lors de la mise à jour — sauf si le marchand avait choisi lui-même une autre position (son choix reste respecté).\n- Les autres positions restent disponibles dans Réglages → Formulaire pour les thèmes où l'emplacement résumé est préféré."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.28.1",
+  "version": "5.28.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.28.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.28.1",
-  "sha256": "68c288c4a3c4d8082bd11253cd2b2be380c72eb8b1862ad80a50847c0dc89a51",
-  "release_date": "2026-09-12T02:54:38.528Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.28.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.28.2",
+  "sha256": "509bc06db1c5a29be67a2afe3954956759b965a66ef096b0bd16eafd31f92eea",
+  "release_date": "2026-09-12T12:45:19.781Z",
   "channel": "stable",
-  "changelog": "## 5.28.1 — 2026-09-12\n\nFiable après mise à jour : la migration de position purge désormais les caches, et le minuteur redevient lisible.\n\n### Corrigé\n- **Purge des caches après chaque migration** : la migration qui bascule le formulaire en pleine largeur modifie le rendu public — les caches de pages sont maintenant purgés aussitôt, pour que les visiteurs voient le nouveau formulaire immédiatement (et non après expiration du cache).\n- **Minuteur illisible sur certains thèmes** : le texte « Offre valable encore… » héritait d'une couleur trop pâle — il est maintenant en rouge foncé lisible, en gras.\n\n### Rappel\n- La migration « formulaire en pleine largeur » s'exécute à la première visite d'une page d'administration après la mise à jour : ouvrez simplement le tableau de bord WordPress une fois."
+  "changelog": "## 5.28.2 — 2026-09-12\n\nLes migrations s'appliquent même sans visite admin : les sites inactifs en back-office reçoivent quand même les corrections de rendu.\n\n### Corrigé\n- **Migrations exécutées sur les requêtes publiques** : jusqu'ici, la migration qui bascule le formulaire en pleine largeur ne s'exécutait qu'à l'ouverture du tableau de bord — les sites où personne ne se connecte à l'admin gardaient indéfiniment l'ancien formulaire dans la colonne étroite du thème. Les migrations tournent maintenant aussi à l'init des requêtes publiques (idempotentes : une seule fois chacune), suivies de la purge des caches — le nouveau rendu part en production tout seul."
 }

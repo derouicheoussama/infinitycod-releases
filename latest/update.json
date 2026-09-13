@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.29.2",
+  "version": "5.29.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.29.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.29.2",
-  "sha256": "bdf2901dee6c9070a2599b635263f2c8dde5e185934de652cb5f78a5378f6324",
-  "release_date": "2026-09-13T05:18:55.261Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.29.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.29.3",
+  "sha256": "cf42510a205e20111e83a8310b52bb6343a328512d3e99c9a24388924bebabd2",
+  "release_date": "2026-09-13T06:37:44.085Z",
   "channel": "stable",
-  "changelog": "## 5.29.2 — 2026-09-13\n\nLes paliers d'offres par quantité deviennent contrôlables depuis les réglages.\n\n### Ajouté\n- **Réglage « Paliers d'offres »** : le formulaire affichait des paliers codés en dur (« 2+ : −10%, 3+ : −15%, 5+ : −20% ») impossibles à modifier. Nouveau champ dans Réglages → Formulaire (à côté du toggle d'affichage) : saisissez vos paliers au format `quantité:remise%` — ex. `2:10, 3:15, 5:20`. Format libre, validation intégrée (quantité ≥ 2, remise 0-90 %, entrées invalides ignorées), tri automatique.\n- Palier par produit toujours prioritaire (meta `_icod_offers`) et filtre développeur conservé.\n\n### Corrigé\n- **« Pleine largeur » manquait aux choix de position** : l'option existait dans le menu déroulant mais pas dans le schéma de validation — sauvegarder la position pleine largeur était silencieusement ignoré. Ajoutée aux choix de l'enum."
+  "changelog": "## 5.29.3 — 2026-09-13\n\nDernières corrections Plugin Check : fclose documenté, i18n updates corrigés.\n\n### Corrigé\n- **fclose de l'import CSV** documenté (lecture d'un fichier importé via poignée valide).\n- **Commentaires translators** ajoutés sur les 2 printf de la page Mises à jour (la version X est disponible / InfinityCod X disponible).\n- État final de l'audit officiel : toutes les erreurs restantes concernent exclusivement le système de mise à jour propre au produit (mise à jour auto, miroirs, webhook) — volontaire et hors périmètre du répertoire officiel."
 }

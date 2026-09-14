@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.30.0",
+  "version": "5.30.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.30.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.30.0",
-  "sha256": "c8207a5e0b7118f47e9fb337080d5bb688764f94ec6eea6dc83ad6af34dda176",
-  "release_date": "2026-09-14T23:04:34.723Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.30.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.30.1",
+  "sha256": "de2646ca3abfce641863a63e9a1c3632888fe387e17efb0f9e2e40f480d4bc7f",
+  "release_date": "2026-09-14T23:40:59.293Z",
   "channel": "stable",
   "changelog": "## 5.30.0 — 2026-09-13\n\nGrande mise à jour conversion + dashboard + rapidité : 8 nouveautés.\n\n### Ajouté\n- **Preuve sociale animée** : « Prénom de Wilaya vient de commander » — petites notifications en bas du formulaire, alimentées par vos **vraies commandes récentes** (fenêtre réglable, prénom seul pour la confidentialité). Réglages → Formulaire.\n- **Compteur de visiteurs** : « N personnes regardent ce produit » — sessions uniques des 15 dernières minutes, par produit.\n- **Mode maintenance** : pause des commandes en un clic — le formulaire affiche un avis personnalisé aux visiteurs (les admins voient l'état), avec notice de rappel dans l'admin.\n- **Bip + notification à chaque nouvelle commande COD** : partout dans l'admin — bip WebAudio + toast dès qu'une commande arrive (poll AJAX 45 s, réglage ON/OFF dans Avancé).\n- **Rapport hebdomadaire par email** : commandes, confirmées, CA et en attente des 7 derniers jours — cron hebdomadaire, réglage ON/OFF dans Avancé.\n- **Widget tableau de bord enrichi** : CA des 7 jours avec **sparkline SVG** du chiffre d'affaires quotidien.\n- **Export Excel des paniers abandonnés** : bouton sur la page Paniers abandonnés — client, téléphone, produit, progression, panier, statut coloré, date.\n- **Cache mémoire des tarifs** : les getters wilaya (livraison estimée, montant minimum, gratuit) sont mis en cache par requête — moins de requêtes SQL sur les pages produit.\n\n### Modifié\n- **Performance d'affichage admin** : `content-visibility` sur les longues tableaux — le navigateur ne peint que les lignes visibles."
 }

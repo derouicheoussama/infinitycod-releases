@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.32.0",
+  "version": "5.33.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.32.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.32.0",
-  "sha256": "e66ddc8abd4d3bffe868bd2e3d4f2c1e282880fd9d10a0fa63cb6bedf6e50096",
-  "release_date": "2026-09-16T04:54:10.939Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.33.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.33.0",
+  "sha256": "027c3d8dea11b6f246357491ff21c9660a1d068ff5ca46ee2378416cbf32e436",
+  "release_date": "2026-09-16T13:22:21.718Z",
   "channel": "stable",
-  "changelog": "## 5.32.0 — 2026-09-16\n\n- **UX Commandes** : avatar client avec initiales colorées, numéro de commande affiché (#id), temps relatif sur la date (« il y a 2 h »), bouton WhatsApp direct sur chaque ligne.\n- **Modale détails enrichie** : chronologie visuelle de la commande (créée → confirmée → expédiée → livrée avec horodatages) et impression du bordereau individuel en un clic."
+  "changelog": "## 5.33.0 — 2026-09-16\n\nNouveau module **Anti-leak** (Réglages → Avancé) :\n\n- **Garde pixel** : l’événement d’achat navigateur (avec Advanced Matching téléphone) est désactivé — seule la Conversions API serveur (données hachées) signe les conversions. Les campagnes continuent d’optimiser, les acheteurs ne nourrissent plus les audiences tierces.\n- **Masquage des téléphones** dans la liste Commandes (option).\n- **Journal des exports** avec filigrane « Trace » dans chaque fichier exporté et alerte e-mail dès un export massif (seuil réglable).\n- **Vérification d’intégrité** des fichiers cœur avec avis admin en cas de copie modifiée ou piratée."
 }

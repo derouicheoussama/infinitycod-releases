@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.35.0",
+  "version": "5.36.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.35.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.35.0",
-  "sha256": "22d165cc9bef31621e059dbf886685c74f62210471b1d8681d5d8e63bb0ff894",
-  "release_date": "2026-09-16T20:00:15.295Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.36.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.36.0",
+  "sha256": "5ab28f1a7c40ea38f9faf300e10c386bc15c5f13b9b22af32fb62c89ac77cc81",
+  "release_date": "2026-09-16T20:52:45.196Z",
   "channel": "stable",
-  "changelog": "## 5.35.0 — 2026-09-16\n\nNouveau pack **SEO & GEO** (référencement classique + moteurs génératifs) :\n\n- JSON-LD produit enrichi : **étoiles d'avis**, **frais et délais de livraison** (shippingDetails), OpenGraph complet.\n- **LocalBusiness** avec zones desservies (wilayas actives), ville et téléphone du marchand.\n- **FAQPage JSON-LD** depuis la FAQ marchand (« question | réponse »), affichée aussi sur les landings wilaya (canonical + robots propres).\n- **/llms.txt** : boutique, zones, tarifs et politique COD structurés pour ChatGPT, Perplexity et les AI Overviews."
+  "changelog": "## 5.36.0 — 2026-09-16\n\n- **Paiement par carte Visa / Mastercard** via Stripe Checkout (page hébergée, 3-D Secure) avec devise et taux de conversion réglables.\n- **PayPal** (Orders v2, capture automatique au retour) avec mode live/sandbox, devise et taux réglables.\n- **Sélecteur de passerelle** dans Réglages → Paiement : CIB/Edahabia (Chargily), carte bancaire (Stripe) ou PayPal — le formulaire adapte logos et libellés automatiquement.\n- **Discrétion** : plus aucune mention d'infrastructure tierce dans l'interface marchand (mises à jour, diagnostics)."
 }

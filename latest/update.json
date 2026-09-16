@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.37.0",
+  "version": "5.38.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.37.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.37.0",
-  "sha256": "6ffa3f2b7bab2a0acc02eddff263c2a347a1be00c1cdc33b2c965e0c8f6a2bf2",
-  "release_date": "2026-09-16T21:27:44.103Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.38.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.38.0",
+  "sha256": "dca318935836ebce0c70b964f2581aa50ae3c8af5936f975ce96c37528b1a1d8",
+  "release_date": "2026-09-16T21:52:55.775Z",
   "channel": "stable",
-  "changelog": "## 5.37.0 — 2026-09-16\n\n- **Aperçu en direct** : la position de défilement du client dans l'aperçu du formulaire est conservée entre deux rafraîchissements.\n- **Conformité** : 14 erreurs Plugin Check corrigées sur le code récent (commentaires traducteurs, échappement des téléchargements JSON, `wp_rand`, ignore documenté sur la liste communautaire)."
+  "changelog": "## 5.38.0 — 2026-09-16\n\n- **Design harmonisé du formulaire** : icônes SVG intégrées (utilisateur, épingle, domicile, bureau, portefeuille, camion, retour) en trait fin — la couleur suit automatiquement l'accent choisi et le rendu est identique sur tous les appareils.\n- Fluidité : animations douces (modale, toasts), focus clavier visible, `prefers-reduced-motion` respecté."
 }

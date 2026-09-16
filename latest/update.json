@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.31.0",
+  "version": "5.31.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.31.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.31.0",
-  "sha256": "e5dc01d411cbdecd58741da3e5ef01701f8f796548d43a9fffb9793fdf6fb43b",
-  "release_date": "2026-09-16T03:59:53.040Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.31.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.31.1",
+  "sha256": "d9f22e2cf06e208292d3f2595090114df126c49b36e646ce439cc065ed8502bf",
+  "release_date": "2026-09-16T04:28:05.954Z",
   "channel": "stable",
-  "changelog": "## 5.31.0 — 2026-09-16\n\nGrande mise à jour logistique & croissance (14 fonctionnalités) :\n\n- **Tarifs par paliers de poids par wilaya** (1-5 / 5-10 kg + /kg au-delà) avec calcul serveur.\n- **Zones régionales** : tarifs de repli par groupe de wilayas, grille nationale pré-remplie en 1 clic.\n- **Duplication tarifs** vers lignes vides + CSV export/import étendus.\n- **Wilaya suspendue** : indisponible côté client, bloquée côté serveur.\n- **A/B test natif** du formulaire avec taux de conversion par variante dans le P&L.\n- **Confirmation WhatsApp 1 clic** : lien signé qui passe la commande en confirmée.\n- **Webhooks HMAC** (Google Sheets, Zapier, Make) + **Telegram** sur le rapport hebdo.\n- **Blacklist communautaire** opt-in + historique de retours dans l'anti-fraude.\n- **Bordereaux en lot** imprimables depuis Commandes.\n- **Export/import JSON** de la configuration + **provision frais de retour** dans le P&L."
+  "changelog": "## 5.31.1 — 2026-09-16\n\n- **Logos officiels E-COM Delivery et DHD Livraison** (fournis par le réseau) : remplacent les visuels provisoires, priorité PNG + suppression automatique des anciens placeholders à la mise à jour.\n- **Page Transporteurs repensée** : boîte de logo normalisée (fond blanc, bordure, coins arrondis), pastille de statut « Connecté / Non configuré », mention du réseau d'expédition (API directe / Ecotrack) — interface plus claire et pratique."
 }

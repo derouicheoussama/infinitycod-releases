@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.30.3",
+  "version": "5.30.4",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.30.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.30.3",
-  "sha256": "61819d9aba11f1ec7fae7bd4661074c0605bec552bbcfbd181caff6cd57c48ba",
-  "release_date": "2026-09-16T00:32:09.079Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.30.4/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.30.4",
+  "sha256": "cb9dc0b96ab796a67d5181d7784470052a6c8c6c14a03312107193668d786ad3",
+  "release_date": "2026-09-16T01:58:42.800Z",
   "channel": "stable",
-  "changelog": "## 5.30.3 — 2026-09-16\n\n- Anti-doublon de formulaire : sur les fiches produit, quand InfinityCod gère la commande, le moteur COD intégré aux thèmes Infinity (infinity-market/landing/shop, moteur `inf_cod`) est automatiquement retiré — un seul formulaire de commande est généré dans le DOM.\n- Compatible dans les deux sens : les thèmes ≥ 1.1.1 neutralisent eux-mêmes leur hook quand le plugin est actif."
+  "changelog": "## 5.30.4 — 2026-09-16\n\n- Menu latéral admin restructuré en 4 groupes avec séparateurs visuels : Pilotage (Tableau de bord, Commandes, Paniers abandonnés), Vente & Livraison (Wilayas & Tarifs, Transporteurs, Codes promo), Analyse (Statistiques P&L), Système (Réglages, Mises à jour, Diagnostics, À propos).\n- Badges de compteurs en direct sur le menu : commandes en attente et paniers abandonnés ouverts (caches transient 10 minutes, style pastille WordPress).\n- Item actif marqué par une barre d'accent et une graisse renforcée ; séparateurs non cliquables compatibles avec tous les schémas couleur de l'admin."
 }

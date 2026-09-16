@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.30.2",
+  "version": "5.30.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.30.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.30.2",
-  "sha256": "d1d2c53dce807bc9de69a054b691ad3e5d8b6c7455232120948ee2890188f516",
-  "release_date": "2026-09-15T08:31:57.828Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.30.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.30.3",
+  "sha256": "61819d9aba11f1ec7fae7bd4661074c0605bec552bbcfbd181caff6cd57c48ba",
+  "release_date": "2026-09-16T00:32:09.079Z",
   "channel": "stable",
-  "changelog": "## 5.30.0 — 2026-09-13\n\nGrande mise à jour conversion + dashboard + rapidité : 8 nouveautés.\n\n### Ajouté\n- **Preuve sociale animée** : « Prénom de Wilaya vient de commander » — petites notifications en bas du formulaire, alimentées par vos **vraies commandes récentes** (fenêtre réglable, prénom seul pour la confidentialité). Réglages → Formulaire.\n- **Compteur de visiteurs** : « N personnes regardent ce produit » — sessions uniques des 15 dernières minutes, par produit.\n- **Mode maintenance** : pause des commandes en un clic — le formulaire affiche un avis personnalisé aux visiteurs (les admins voient l'état), avec notice de rappel dans l'admin.\n- **Bip + notification à chaque nouvelle commande COD** : partout dans l'admin — bip WebAudio + toast dès qu'une commande arrive (poll AJAX 45 s, réglage ON/OFF dans Avancé).\n- **Rapport hebdomadaire par email** : commandes, confirmées, CA et en attente des 7 derniers jours — cron hebdomadaire, réglage ON/OFF dans Avancé.\n- **Widget tableau de bord enrichi** : CA des 7 jours avec **sparkline SVG** du chiffre d'affaires quotidien.\n- **Export Excel des paniers abandonnés** : bouton sur la page Paniers abandonnés — client, téléphone, produit, progression, panier, statut coloré, date.\n- **Cache mémoire des tarifs** : les getters wilaya (livraison estimée, montant minimum, gratuit) sont mis en cache par requête — moins de requêtes SQL sur les pages produit.\n\n### Modifié\n- **Performance d'affichage admin** : `content-visibility` sur les longues tableaux — le navigateur ne peint que les lignes visibles."
+  "changelog": "## 5.30.3 — 2026-09-16\n\n- Anti-doublon de formulaire : sur les fiches produit, quand InfinityCod gère la commande, le moteur COD intégré aux thèmes Infinity (infinity-market/landing/shop, moteur `inf_cod`) est automatiquement retiré — un seul formulaire de commande est généré dans le DOM.\n- Compatible dans les deux sens : les thèmes ≥ 1.1.1 neutralisent eux-mêmes leur hook quand le plugin est actif."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.31.1",
+  "version": "5.32.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.31.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.31.1",
-  "sha256": "d9f22e2cf06e208292d3f2595090114df126c49b36e646ce439cc065ed8502bf",
-  "release_date": "2026-09-16T04:28:05.954Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.32.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.32.0",
+  "sha256": "e66ddc8abd4d3bffe868bd2e3d4f2c1e282880fd9d10a0fa63cb6bedf6e50096",
+  "release_date": "2026-09-16T04:54:10.939Z",
   "channel": "stable",
-  "changelog": "## 5.31.1 — 2026-09-16\n\n- **Logos officiels E-COM Delivery et DHD Livraison** (fournis par le réseau) : remplacent les visuels provisoires, priorité PNG + suppression automatique des anciens placeholders à la mise à jour.\n- **Page Transporteurs repensée** : boîte de logo normalisée (fond blanc, bordure, coins arrondis), pastille de statut « Connecté / Non configuré », mention du réseau d'expédition (API directe / Ecotrack) — interface plus claire et pratique."
+  "changelog": "## 5.32.0 — 2026-09-16\n\n- **UX Commandes** : avatar client avec initiales colorées, numéro de commande affiché (#id), temps relatif sur la date (« il y a 2 h »), bouton WhatsApp direct sur chaque ligne.\n- **Modale détails enrichie** : chronologie visuelle de la commande (créée → confirmée → expédiée → livrée avec horodatages) et impression du bordereau individuel en un clic."
 }

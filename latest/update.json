@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.34.0",
+  "version": "5.35.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.34.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.34.0",
-  "sha256": "300e28a705bd1e00303057c7f14dcfad148cf4ca5cd29c503fb2b9e0febba3c2",
-  "release_date": "2026-09-16T17:06:40.171Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.35.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.35.0",
+  "sha256": "22d165cc9bef31621e059dbf886685c74f62210471b1d8681d5d8e63bb0ff894",
+  "release_date": "2026-09-16T20:00:15.295Z",
   "channel": "stable",
-  "changelog": "## 5.34.0 — 2026-09-16\n\n- **Performance** : index composite `(status, created_at)` sur les commandes (migration auto) + cache 3 minutes des KPI (invalidé à chaque mouvement de commande).\n- **Design & fluidité** : animations d'ouverture de la modale et des toasts, survols de lignes, focus clavier visible, barres de défilement fines, respect de `prefers-reduced-motion` côté admin et formulaire."
+  "changelog": "## 5.35.0 — 2026-09-16\n\nNouveau pack **SEO & GEO** (référencement classique + moteurs génératifs) :\n\n- JSON-LD produit enrichi : **étoiles d'avis**, **frais et délais de livraison** (shippingDetails), OpenGraph complet.\n- **LocalBusiness** avec zones desservies (wilayas actives), ville et téléphone du marchand.\n- **FAQPage JSON-LD** depuis la FAQ marchand (« question | réponse »), affichée aussi sur les landings wilaya (canonical + robots propres).\n- **/llms.txt** : boutique, zones, tarifs et politique COD structurés pour ChatGPT, Perplexity et les AI Overviews."
 }

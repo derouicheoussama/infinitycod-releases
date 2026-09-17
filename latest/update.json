@@ -7,8 +7,8 @@
   "requires_woocommerce": "6.0",
   "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.39.1/infinitycod.zip",
   "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.39.1",
-  "sha256": "17da64166203d77b9a89069261269be78870d951a54ccd8d10da3e110336d1ec",
-  "release_date": "2026-09-17T14:12:08.349Z",
+  "sha256": "78b50aa4016a198d9fd7a3eef416fb771e1735f1b5e7a023edc1dd8f06e0aa7b",
+  "release_date": "2026-09-17T14:13:01.447Z",
   "channel": "stable",
   "changelog": "## 5.39.0 — 2026-09-17\n\n8 nouvelles fonctionnalités :\n\n- **Portail de suivi client public** (`/suivi-commande/`) : numéro + téléphone, chronologie en direct, transporteur et suivi — anti-abus intégré.\n- **Facture PDF** : générateur intégré sans dépendance, bouton dans la fiche commande, pièce jointe automatique à l'e-mail de confirmation.\n- **Alertes de stock** : badge « Bientôt épuisé » sur le formulaire (seuil réglable) + e-mail quotidien admin.\n- **Rapport quotidien WhatsApp** au marchand (commandes du jour + CA).\n- **Fidélité** : points sur commandes livrées, remise automatique au formulaire plafonnée à 30 %.\n- **PWA marchand** : dashboard installable sur mobile (manifest + service worker + raccourcis).\n- **Étiquettes 10x15 cm** en lot en plus des bordereaux.\n- Réglages : cartes Suivi client / Facture / Stock / WhatsApp quotidien / Fidélité."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.39.1",
+  "version": "5.39.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.39.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.39.1",
-  "sha256": "78b50aa4016a198d9fd7a3eef416fb771e1735f1b5e7a023edc1dd8f06e0aa7b",
-  "release_date": "2026-09-17T14:13:01.447Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.39.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.39.2",
+  "sha256": "f6b0a46e4cdb42eb3542472cde43693bb85e2f890aee364c7ba0cd75b8ea1eb2",
+  "release_date": "2026-09-17T14:27:05.653Z",
   "channel": "stable",
-  "changelog": "## 5.39.0 — 2026-09-17\n\n8 nouvelles fonctionnalités :\n\n- **Portail de suivi client public** (`/suivi-commande/`) : numéro + téléphone, chronologie en direct, transporteur et suivi — anti-abus intégré.\n- **Facture PDF** : générateur intégré sans dépendance, bouton dans la fiche commande, pièce jointe automatique à l'e-mail de confirmation.\n- **Alertes de stock** : badge « Bientôt épuisé » sur le formulaire (seuil réglable) + e-mail quotidien admin.\n- **Rapport quotidien WhatsApp** au marchand (commandes du jour + CA).\n- **Fidélité** : points sur commandes livrées, remise automatique au formulaire plafonnée à 30 %.\n- **PWA marchand** : dashboard installable sur mobile (manifest + service worker + raccourcis).\n- **Étiquettes 10x15 cm** en lot en plus des bordereaux.\n- Réglages : cartes Suivi client / Facture / Stock / WhatsApp quotidien / Fidélité."
+  "changelog": "## 5.39.2 — 2026-09-17\n\n- **Discrétion totale** : la carte technique « Mises à jour via GitHub » disparaît de Réglages → Avancé, remplacée par un simple statut avec lien vers l'onglet Mises à jour. Les miroirs, dépôts et token restent gérés automatiquement par le plugin (surcharge possible en constantes pour les développeurs)."
 }

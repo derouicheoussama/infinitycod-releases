@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.39.2",
+  "version": "5.39.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.39.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.39.2",
-  "sha256": "f6b0a46e4cdb42eb3542472cde43693bb85e2f890aee364c7ba0cd75b8ea1eb2",
-  "release_date": "2026-09-17T14:27:05.653Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.39.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.39.3",
+  "sha256": "66c30f19a1a1c626da74ca941d93411437c943bb13f14c5bf68cb4e417ea2c99",
+  "release_date": "2026-09-17T15:44:34.431Z",
   "channel": "stable",
-  "changelog": "## 5.39.2 — 2026-09-17\n\n- **Discrétion totale** : la carte technique « Mises à jour via GitHub » disparaît de Réglages → Avancé, remplacée par un simple statut avec lien vers l'onglet Mises à jour. Les miroirs, dépôts et token restent gérés automatiquement par le plugin (surcharge possible en constantes pour les développeurs)."
+  "changelog": "## 5.39.2 — 2026-09-17\n\n- **Correctif aperçu en direct** : la requête AJAX de l'aperçu est ancrée sur l'origine courante du navigateur (et non l'URL du site stockée en base) — l'aperçu se met à jour instantanément même en cas de différence www/https/domaine. Les styles de l'aperçu utilisent un chemin relatif."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.40.1",
+  "version": "5.40.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.1",
-  "sha256": "33030c446ffb91d37a087cbe06019ef4fea9004961c6a3ed64c83c4af8a9beee",
-  "release_date": "2026-09-18T03:04:58.222Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.2",
+  "sha256": "560bf5c2398b6ce5e3ee177927a2c78a05ead896095faf26b236c9731a813173",
+  "release_date": "2026-09-18T05:53:29.458Z",
   "channel": "stable",
-  "changelog": "## 5.40.1 — 2026-09-18\n\n- **Carte Go Pro** sur le tableau de bord : roadmap Premium (WhatsApp, offres, multi-pays, support prioritaire) en 2 colonnes avec boutons Essai 7 jours et Licence — invisible si Premium actif. Design sombre doré avec étoile en filigrane."
+  "changelog": "## 5.40.2 — 2026-09-18\n\n- **Correctif critique des mises à jour** : une signature de manifest désynchronisée sur le miroir suffisait à bloquer TOUTE proposition de mise à jour (le cache d'erreur était renvoyé comme des données et court-circuitait les sources de repli Atom/API). Désormais : un cache négatif n'est plus renvoyé comme données, la chaîne de repli complète (miroir → Atom → API GitHub) est toujours parcourue.\n- **Gestion du .sig durcie** : un `update.json.sig` absent (404/corps d'erreur CDN) n'est plus pris pour une signature invalide ; une signature réellement invalide écarte uniquement la source fautive au lieu de couper toute la chaîne pendant 30 minutes.\n- **CI durci** : signature Ed25519 désormais obligatoire (la release échoue sans clé) et vérification octet-par-octet de la paire update.json/.sig avant publication interne et avant push du miroir — une paire désynchronisée ne peut plus être publiée."
 }

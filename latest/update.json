@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.40.0",
+  "version": "5.40.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.0",
-  "sha256": "9f0ea576663218586112ff85068db77ce8dd617ee3b0837c4b3a591e0de1ef0b",
-  "release_date": "2026-09-17T21:24:22.517Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.1",
+  "sha256": "33030c446ffb91d37a087cbe06019ef4fea9004961c6a3ed64c83c4af8a9beee",
+  "release_date": "2026-09-18T03:04:58.222Z",
   "channel": "stable",
-  "changelog": "## 5.40.0 — 2026-09-17\n\n- **Notification e-mail des mises à jour** : le marchand reçoit un e-mail dès qu'une nouvelle version sort (une seule fois par version), en complément de la vérification horaire et de la mise à jour automatique. Désactivable dans Mises à jour."
+  "changelog": "## 5.40.1 — 2026-09-18\n\n- **Carte Go Pro** sur le tableau de bord : roadmap Premium (WhatsApp, offres, multi-pays, support prioritaire) en 2 colonnes avec boutons Essai 7 jours et Licence — invisible si Premium actif. Design sombre doré avec étoile en filigrane."
 }

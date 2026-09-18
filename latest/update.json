@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.40.4",
+  "version": "5.40.5",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.4/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.4",
-  "sha256": "b1d1264f95fb1d63c792f780b26172215e96b092cafb9c15fc7a60da94aa875d",
-  "release_date": "2026-09-18T06:22:17.381Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.5/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.5",
+  "sha256": "b2b92a4edec869ddbe5a98b6d73a266b034d1c2022bf8760af4c39479fdd1b87",
+  "release_date": "2026-09-18T06:51:15.112Z",
   "channel": "stable",
-  "changelog": "## 5.40.4 — 2026-09-18\n\n- **Vérification de signature déterministe** : le repli sodium_compat est désormais chargé par le plugin lui-même — certains builds PHP embarquent le module sodium sans toutes ses fonctions, ce qui rendait la vérification fausse par défaut sur ces machines."
+  "changelog": "## 5.40.5 — 2026-09-18\n\n- **Notification WhatsApp des mises à jour** : en complément de l'e-mail, le marchand reçoit un message WhatsApp (passerelle configurée + numéro marchand) dès qu'une nouvelle version sort. Activable dans Mises à jour → Paramètres.\n- **Santé des mises à jour** : statut de la signature Ed25519 du manifest affiché en direct sur la page Mises à jour (valide / invalide / absente + miroir concerné) et latence en millisecondes de chaque source dans le diagnostic.\n- Correctifs : le réglage « notification e-mail » était réinitialisé à chaque enregistrement du formulaire ; affichage de l'empreinte SHA-256 (conversion de tableau en chaîne) ; identifiant produit du formulaire initialisé depuis la page produit courante."
 }

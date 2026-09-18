@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.40.5",
+  "version": "5.40.6",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.5/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.5",
-  "sha256": "b2b92a4edec869ddbe5a98b6d73a266b034d1c2022bf8760af4c39479fdd1b87",
-  "release_date": "2026-09-18T06:51:15.112Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.40.6/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.40.6",
+  "sha256": "e58663e49d4c0fc0fbab35f1fc8657deafb4d264805ffeef5efa837ae179bea0",
+  "release_date": "2026-09-18T16:24:57.055Z",
   "channel": "stable",
-  "changelog": "## 5.40.5 — 2026-09-18\n\n- **Notification WhatsApp des mises à jour** : en complément de l'e-mail, le marchand reçoit un message WhatsApp (passerelle configurée + numéro marchand) dès qu'une nouvelle version sort. Activable dans Mises à jour → Paramètres.\n- **Santé des mises à jour** : statut de la signature Ed25519 du manifest affiché en direct sur la page Mises à jour (valide / invalide / absente + miroir concerné) et latence en millisecondes de chaque source dans le diagnostic.\n- Correctifs : le réglage « notification e-mail » était réinitialisé à chaque enregistrement du formulaire ; affichage de l'empreinte SHA-256 (conversion de tableau en chaîne) ; identifiant produit du formulaire initialisé depuis la page produit courante."
+  "changelog": "## 5.40.6 — 2026-09-18\n\n- **Correctif « erreur critique » à l'installation des mises à jour** : le téléchargement + la décompression + la copie des fichiers dépassent la limite d'exécution par défaut de 30 s de beaucoup d'hébergeurs (aggravé par l'antivirus sous Windows). La limite est désormais relevée à 300 s au tout début du cycle de mise à jour (premier hook upgrader) et pour l'installation forcée."
 }

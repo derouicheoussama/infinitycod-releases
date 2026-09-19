@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.41.1",
+  "version": "5.41.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.1",
-  "sha256": "2181a6a326d8a3ab9a806057bf7b6589668e9ae3a892ff123222e9147919ce73",
-  "release_date": "2026-09-19T00:52:42.904Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.2",
+  "sha256": "d0498f7502af4ed88c9ce43698b054100fb96bb788255fcbf42e7b8403667da5",
+  "release_date": "2026-09-19T01:02:15.874Z",
   "channel": "stable",
-  "changelog": "## 5.41.1 — 2026-09-19\n\n- **Nettoyage Plugin Check** : sortie du tableau de bord filtrée via wp_kses_post ; échappement/sanitization explicites des entrées (zones régionales, ids bordereaux) ; requêtes directes documentées (table interne du schéma, valeurs paramétrées) ; `set_time_limit` volontaires justifiés. Le signalement plugin_updater_detected est inhérent à l'édition commerciale (son système de mises à jour signées) — la build WordPress.org avec stubs reste à 0 erreur / 0 warning."
+  "changelog": "## 5.41.2 — 2026-09-19\n\n- **Plugin Check final** : couverture des interpolations de nom de table (schéma interne) dans les ignores documentés du portail de suivi et de la fidélité ; normalisation des fins de ligne de la page Réglages."
 }

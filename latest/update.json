@@ -7,8 +7,8 @@
   "requires_woocommerce": "6.0",
   "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.2/infinitycod.zip",
   "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.2",
-  "sha256": "d0498f7502af4ed88c9ce43698b054100fb96bb788255fcbf42e7b8403667da5",
-  "release_date": "2026-09-19T01:02:15.874Z",
+  "sha256": "1ba19cca2c348f5ae21dbec15f5680045be7bd529a43bc145416e5ead9b6cd1c",
+  "release_date": "2026-09-19T01:02:26.611Z",
   "channel": "stable",
   "changelog": "## 5.41.2 — 2026-09-19\n\n- **Plugin Check final** : couverture des interpolations de nom de table (schéma interne) dans les ignores documentés du portail de suivi et de la fidélité ; normalisation des fins de ligne de la page Réglages."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.41.0",
+  "version": "5.41.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.0",
-  "sha256": "3b7b9577f70552e0a8e73ff2bcaf2a18ededc8a7227694fce83479cd46b665b9",
-  "release_date": "2026-09-19T00:11:49.644Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.1",
+  "sha256": "2181a6a326d8a3ab9a806057bf7b6589668e9ae3a892ff123222e9147919ce73",
+  "release_date": "2026-09-19T00:52:42.904Z",
   "channel": "stable",
-  "changelog": "## 5.41.0 — 2026-09-19\n\n- **Relance d'avis après livraison** : WhatsApp automatique au client X jours après la livraison (configurable), avec votre lien d'avis Google/Facebook — une seule relance par commande. Réglages → WhatsApp.\n- **Export comptable mensuel** : CSV compatible Excel depuis Statistiques P&L — chaque commande du mois, statut transporteur, CA enregistré / livré et frais de livraison cumulés.\n- **Notification navigateur des nouvelles commandes** : le marchand reçoit une notification système (en plus du bip sonore) dès qu'une commande arrive, même avec l'onglet en arrière-plan.\n- **Anti-fraude adaptatif** : le Shield apprend de votre historique — un numéro avec 3 commandes ou plus et aucune livraison sur 90 jours majore automatiquement son score de risque (drapeau phone_never_delivered).\n- **Télémétrie de santé opt-in** : rapport mensuel strictement anonyme (versions plugin/PHP/WP + résultat de la dernière mise à jour), désactivé par défaut, activable dans Mises à jour.\n- **Infrastructure qualité** : test E2E de mise à jour exécuté dans le CI (WordPress jetable via SQLite, offre réelle → upgrader réel → zéro fatal, mode multisite inclus), compatibilité PHP 8.4 vérifiée en CI, et outil promote-stable de re-propagation signée du miroir (vérification Ed25519 avant publication + purge CDN)."
+  "changelog": "## 5.41.1 — 2026-09-19\n\n- **Nettoyage Plugin Check** : sortie du tableau de bord filtrée via wp_kses_post ; échappement/sanitization explicites des entrées (zones régionales, ids bordereaux) ; requêtes directes documentées (table interne du schéma, valeurs paramétrées) ; `set_time_limit` volontaires justifiés. Le signalement plugin_updater_detected est inhérent à l'édition commerciale (son système de mises à jour signées) — la build WordPress.org avec stubs reste à 0 erreur / 0 warning."
 }

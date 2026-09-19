@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.41.4",
+  "version": "5.41.5",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.4/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.4",
-  "sha256": "82424509c38e9545bbf594150f4316e23b15a47f118b19dd875e2e5d97f0b1a7",
-  "release_date": "2026-09-19T01:42:49.870Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.41.5/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.41.5",
+  "sha256": "b5e023aad1ded169859ffe6e4834d9ff83c264c1c9c34235128a47f047e62058",
+  "release_date": "2026-09-19T01:52:54.861Z",
   "channel": "stable",
   "changelog": "## 5.41.3 — 2026-09-19\r\n\r\n- **Plugin Check — positionnement des ignores** : les annotations de sortie CSV et d'interpolation de nom de table sont désormais positionnées sur la ligne exacte rapportée par l'analyseur (export comptable, portail de suivi, fidélité)."
 }

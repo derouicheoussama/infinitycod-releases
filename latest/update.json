@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.43.2",
+  "version": "5.43.3",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.43.2/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.43.2",
-  "sha256": "72ae9db7e8c0cbbf31004254422125e63863f2648171f446a9c62c0ce521da03",
-  "release_date": "2026-09-20T14:38:38.038Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.43.3/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.43.3",
+  "sha256": "002e5e18b85deacedcc2ff62c2f37f6ce3554af76186434b07e9c4ec95aafac7",
+  "release_date": "2026-09-20T19:42:12.791Z",
   "channel": "stable",
   "changelog": "## 5.43.2 — 2026-09-20\r\n\r\n- **Correctif critique — chargement des communes** : sur les sites avec permaliens simples, l'URL REST des communes/stopdesks était malformée (double « ? » → 404) et le client ne pouvait pas choisir sa commune. Le JS construit désormais l'URL correctement quelle que soit la configuration des permaliens."
 }

@@ -7,8 +7,8 @@
   "requires_woocommerce": "6.0",
   "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.43.4/infinitycod.zip",
   "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.43.4",
-  "sha256": "4ede779b102e5f76935f38fadd02b6b2dce8cc84d13ec59a08e88bfaf691d3d8",
-  "release_date": "2026-09-20T23:20:55.290Z",
+  "sha256": "8d312a78f1964d01b01f243f853a9b71716f1230cb3466d6d72609723e71743b",
+  "release_date": "2026-09-20T23:21:36.677Z",
   "channel": "stable",
   "changelog": "## 5.43.4 — 2026-09-20\r\n\r\n- **Section compatibilité 2026** : badges animés sur le formulaire — Mobilis, Djezzy, Ooredoo, CIB, Edahabia, +213 (apparence pop en cascade, respecte prefers-reduced-motion).\r\n- **Validation téléphonique 2026** : le plugin accepte tous les préfixes mobiles algériens actuels et futurs (03/04/05/06/07/08/09 + +213), pas seulement 05/06/07."
 }

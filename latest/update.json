@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.8",
+  "version": "5.43.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.8/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.8",
-  "sha256": "70668e659314feb2303ffb502ffce4e63c32c246a6ce08e777a98d4a255dbc2e",
-  "release_date": "2026-09-20T10:48:23.619Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.43.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.43.0",
+  "sha256": "963cd2fe24aab3152132420050dd4e722169d0945b47d3e73dd64ea0dc331fab",
+  "release_date": "2026-09-20T11:17:27.257Z",
   "channel": "stable",
-  "changelog": "## 5.42.8 — 2026-09-20\r\n\r\n- **Barre « Enregistrer » repensée** : fine barre fixe en bas de l'écran, toujours accessible sans jamais recouvrir le contenu (padding de compensation sur la page) — remplace la barre collante qui gênait la navigation et l'aperçu."
+  "changelog": "## 5.43.0 — 2026-09-20\r\n\r\n- **Réglages → Formulaire repensé** : aperçu en direct TOUJOURS en colonne de droite (vis-à-vis des réglages à gauche) dès 1100 px d'écran, tableau de bord élargi (1780 px), aperçu collant au défilement. Description réduite à une ligne. La largeur d'aperçu (Mobile 390 / Tablette 768 / Pleine largeur) reste commutable d'un clic.\r\n- **Diagnostics enrichis** : bandeau récapitulatif automatique (vérifications OK / à corriger) exécuté à chaque chargement + filtre « problèmes seulement » en un clic."
 }

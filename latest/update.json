@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.0",
+  "version": "5.42.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.0",
-  "sha256": "66de60bb83ccdefd709e0b79fbf8c5e792e0f38909b24c5136ba57a850349a0a",
-  "release_date": "2026-09-19T22:20:21.936Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.1",
+  "sha256": "33511466a8a8c09e17159e0f9d11e2019ce77772d80c22486f710344144d576d",
+  "release_date": "2026-09-20T02:53:07.416Z",
   "channel": "stable",
-  "changelog": "## 5.42.0 — 2026-09-19\r\n\r\n- **Aperçu en direct fidèle** : l'aperçu applique vos réglages en cours sur la VRAIE page produit de votre thème (mise en page, styles du site, produit réel) au lieu d'un rendu isolé — ce que vous voyez est exactement ce que verra le client. Brouillon appliqué via jeton transient (10 min), sans écriture en base.\r\n- **Minuteur d'urgence v2** : horloge stylée animée (respiration), barre de progression qui se vide en temps réel, urgence croissante — pulsation sous 10 minutes, tremblement + horloge pleine sous 1 minute. Respecte prefers-reduced-motion.\r\n- **Configuration vendeur masquée** : la section « Vente Pro — configuration vendeur » n'apparaît plus sur les installations clientes ; réservée à l'éditeur via la constante INFINITYCOD_SELLER_MODE (à définir dans wp-config.php sur votre propre site)."
+  "changelog": "## 5.42.1 — 2026-09-20\r\n\r\n- **Aperçu en direct : formulaire seul** : l'aperçu n'affiche plus la page entière — uniquement le formulaire COD, avec les styles réels du thème (masquage du reste de la page actif uniquement sous jeton de prévisualisation)."
 }

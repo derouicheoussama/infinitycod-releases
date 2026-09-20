@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.5",
+  "version": "5.42.6",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.5/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.5",
-  "sha256": "9bd908be229266ff48d29f5a2c51d269d9b7e159b6c146c8fe9c7a1eeee83263",
-  "release_date": "2026-09-20T09:02:02.386Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.6/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.6",
+  "sha256": "042dbee9fcee9444bbee1f5328a42719c7fed0314031a0f814a5e371ee01ca43",
+  "release_date": "2026-09-20T09:34:26.723Z",
   "channel": "stable",
-  "changelog": "## 5.42.5 — 2026-09-20\r\n\r\n- **Aperçu en direct — rendu fidèle corrigé** : l'isolation déplace désormais le wrapper complet `.icod-root` (avec sa classe de thème) et non le formulaire nu — le formulaire de l'aperçu conserve tous ses styles scopés au lieu d'apparaître brut."
+  "changelog": "## 5.42.6 — 2026-09-20\r\n\r\n- **Barre « Enregistrer » en flux normal** : elle ne suit plus le défilement et ne recouvre plus l'aperçu ni les champs — elle se place à la fin du formulaire, comme dans l'admin WordPress classique."
 }

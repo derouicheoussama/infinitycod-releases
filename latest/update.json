@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.6",
+  "version": "5.42.7",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.6/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.6",
-  "sha256": "042dbee9fcee9444bbee1f5328a42719c7fed0314031a0f814a5e371ee01ca43",
-  "release_date": "2026-09-20T09:34:26.723Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.7/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.7",
+  "sha256": "221d708853722d118e00cf0e3c0b313e0881bec9a24a8ea877dee714547c41f0",
+  "release_date": "2026-09-20T10:09:27.279Z",
   "channel": "stable",
-  "changelog": "## 5.42.6 — 2026-09-20\r\n\r\n- **Barre « Enregistrer » en flux normal** : elle ne suit plus le défilement et ne recouvre plus l'aperçu ni les champs — elle se place à la fin du formulaire, comme dans l'admin WordPress classique."
+  "changelog": "## 5.42.7 — 2026-09-20\r\n\r\n- **Correctif critique de l'aperçu en direct** : le brouillon de réglages n'était jamais appliqué sur le rendu — `Settings::all()` lit la base via une requête directe (sans `pre_option`) et met le résultat en cache statique avant l'ajout du filtre. Le brouillon est désormais injecté directement dans ce cache (`setCache`), l'aperçu reflète instantanément chaque modification, et le rendu reste fidèle après enregistrement."
 }

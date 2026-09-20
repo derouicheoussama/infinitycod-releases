@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.4",
+  "version": "5.42.5",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.4/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.4",
-  "sha256": "e6d7be287583e12f7fd7c7c312ced504caf222ad4ea7888a3493df7bebbd7083",
-  "release_date": "2026-09-20T03:42:15.380Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.5/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.5",
+  "sha256": "9bd908be229266ff48d29f5a2c51d269d9b7e159b6c146c8fe9c7a1eeee83263",
+  "release_date": "2026-09-20T09:02:02.386Z",
   "channel": "stable",
-  "changelog": "## 5.42.4 — 2026-09-20\r\n\r\n- **Résistance aux mélanges CDN** : manifestes et signatures de mise à jour récupérés avec cache-busting — les CDN servant manifest et signature avec des âges de cache indépendants, une fenêtre de mélange après chaque release ressemblait à une signature invalide. Le statut de signature teste les DEUX miroirs et retient le premier cohérent ; cache négatif réduit à 3 minutes ; le zip est déchargé du cache avec vérification SHA-256."
+  "changelog": "## 5.42.5 — 2026-09-20\r\n\r\n- **Aperçu en direct — rendu fidèle corrigé** : l'isolation déplace désormais le wrapper complet `.icod-root` (avec sa classe de thème) et non le formulaire nu — le formulaire de l'aperçu conserve tous ses styles scopés au lieu d'apparaître brut."
 }

@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.7",
+  "version": "5.42.8",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.7/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.7",
-  "sha256": "221d708853722d118e00cf0e3c0b313e0881bec9a24a8ea877dee714547c41f0",
-  "release_date": "2026-09-20T10:09:27.279Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.8/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.8",
+  "sha256": "70668e659314feb2303ffb502ffce4e63c32c246a6ce08e777a98d4a255dbc2e",
+  "release_date": "2026-09-20T10:48:23.619Z",
   "channel": "stable",
-  "changelog": "## 5.42.7 — 2026-09-20\r\n\r\n- **Correctif critique de l'aperçu en direct** : le brouillon de réglages n'était jamais appliqué sur le rendu — `Settings::all()` lit la base via une requête directe (sans `pre_option`) et met le résultat en cache statique avant l'ajout du filtre. Le brouillon est désormais injecté directement dans ce cache (`setCache`), l'aperçu reflète instantanément chaque modification, et le rendu reste fidèle après enregistrement."
+  "changelog": "## 5.42.8 — 2026-09-20\r\n\r\n- **Barre « Enregistrer » repensée** : fine barre fixe en bas de l'écran, toujours accessible sans jamais recouvrir le contenu (padding de compensation sur la page) — remplace la barre collante qui gênait la navigation et l'aperçu."
 }

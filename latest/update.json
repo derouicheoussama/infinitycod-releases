@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.42.1",
+  "version": "5.42.2",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.1/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.1",
-  "sha256": "33511466a8a8c09e17159e0f9d11e2019ce77772d80c22486f710344144d576d",
-  "release_date": "2026-09-20T02:53:07.416Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.42.2/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.42.2",
+  "sha256": "2ecba91fd30a963ebea1b20d96a5956f8d284bc4e2756ace24ebb6c057d793c3",
+  "release_date": "2026-09-20T03:08:20.383Z",
   "channel": "stable",
   "changelog": "## 5.42.1 — 2026-09-20\r\n\r\n- **Aperçu en direct : formulaire seul** : l'aperçu n'affiche plus la page entière — uniquement le formulaire COD, avec les styles réels du thème (masquage du reste de la page actif uniquement sous jeton de prévisualisation)."
 }

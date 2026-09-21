@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.43.4",
+  "version": "5.44.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.43.4/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.43.4",
-  "sha256": "8d312a78f1964d01b01f243f853a9b71716f1230cb3466d6d72609723e71743b",
-  "release_date": "2026-09-20T23:21:36.677Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.44.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.44.0",
+  "sha256": "de550f741892bbf69fd470a20171a833d26a3527e986a0135baae064eb8d469b",
+  "release_date": "2026-09-21T03:53:54.935Z",
   "channel": "stable",
-  "changelog": "## 5.43.4 — 2026-09-20\r\n\r\n- **Section compatibilité 2026** : badges animés sur le formulaire — Mobilis, Djezzy, Ooredoo, CIB, Edahabia, +213 (apparence pop en cascade, respecte prefers-reduced-motion).\r\n- **Validation téléphonique 2026** : le plugin accepte tous les préfixes mobiles algériens actuels et futurs (03/04/05/06/07/08/09 + +213), pas seulement 05/06/07."
+  "changelog": "## 5.44.0 — 2026-09-21\r\n\r\n- **API transporteurs complète** — pour tous les transporteurs (Yalidine, ZR Express, Maystro, Noest, E-COM, DHD, réseau Ecotrack personnalisé) : modification d'un colis avant expédition, suppression avant expédition, étiquette/bordereau, remarque, fiche colis complète, suivi détaillé événement par événement, wilayas actives et tarifs de livraison récupérés en direct. Interface : nouvelle carte « Colis expédiés » avec actions par colis + boutons « Wilayas / Tarifs » par transporteur. Chaque action ne s'affiche que si l'API du transporteur la supporte (rejet propre sinon)."
 }

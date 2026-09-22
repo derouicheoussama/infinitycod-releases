@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.46.0",
+  "version": "5.46.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.46.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.46.0",
-  "sha256": "c4e1cdabaea7454d98baa2af79ae2a97fcb085a0e4c5159a8d74c143f06a1737",
-  "release_date": "2026-09-22T22:19:44.446Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.46.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.46.1",
+  "sha256": "4a0c6e85f2b92dbfdc565b145588ddaed5a3fe18c6efb6d1cbd078370518deb9",
+  "release_date": "2026-09-22T23:25:00.681Z",
   "channel": "stable",
-  "changelog": "## 5.46.0 — 2026-09-21\r\n\r\n- **Achat Premium intégré via Freemius** : bouton « Acheter Premium — par carte » directement dans le plugin (carte Go Pro du tableau de bord, bannière 3 étapes dans l'onglet Licence, lien de la liste des extensions). Le client paie sur le checkout sécurisé Freemius, reçoit sa clé par email, la colle dans Réglages → Licence — Premium actif immédiatement. Configuration de l'éditeur : constante INFINITYCOD_CHECKOUT_URL (une ligne dans le plugin ou wp-config) ou réglage freemius_checkout_url."
+  "changelog": "## 5.46.1 — 2026-09-23\r\n\r\n- **Message d'achat client-friendly** : quand le checkout Freemius n'est pas encore configuré, la carte « Acheter Premium » propose de contacter l'éditeur (lien vers son site) au lieu d'afficher des instructions de configuration vendeur."
 }

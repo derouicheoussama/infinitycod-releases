@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.45.0",
+  "version": "5.46.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.45.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.45.0",
-  "sha256": "5e443f32602ac0bf7fc99e25b7bd2d42f9a36937fb64e31b12995ebdbdd0cc77",
-  "release_date": "2026-09-22T18:20:27.041Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.46.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.46.0",
+  "sha256": "c4e1cdabaea7454d98baa2af79ae2a97fcb085a0e4c5159a8d74c143f06a1737",
+  "release_date": "2026-09-22T22:19:44.446Z",
   "channel": "stable",
-  "changelog": "## 5.45.0 — 2026-09-21\r\n\r\n- **Bloc Gutenberg du formulaire COD** : « InfinityCod — Formulaire COD » insérable dans l'éditeur de blocs, rendu serveur (le VRAI formulaire), réglages ID produit et titre personnalisés.\r\n- **Colis en masse** : sur Transporteurs → Créer des colis, sélection multiple (tout sélectionner) et création séquentielle des colis avec compteur de progression.\r\n- **Bordereau groupé** : dans Colis expédiés, sélection multiple → une étiquette par colis groupée par transporteur (les API multi-trackings fusionnent naturellement).\r\n- **Filtres Colis expédiés** : recherche client/téléphone/suivi + filtre par transporteur.\r\n- **Test Webhook** : bouton « Envoyer un test signé » (HMAC-SHA256) dans Réglages → Avancé pour valider Google Sheets/Zapier/CRM.\r\n- **Export comptable enrichi** : filtre par transporteur + nombre de retours dans le récapitulatif.\r\n- Correctif : les boutons test WhatsApp/Chargily n'avaient plus leurs handlers (perdus lors d'une restauration git) — rétablis et vérifiés."
+  "changelog": "## 5.46.0 — 2026-09-21\r\n\r\n- **Achat Premium intégré via Freemius** : bouton « Acheter Premium — par carte » directement dans le plugin (carte Go Pro du tableau de bord, bannière 3 étapes dans l'onglet Licence, lien de la liste des extensions). Le client paie sur le checkout sécurisé Freemius, reçoit sa clé par email, la colle dans Réglages → Licence — Premium actif immédiatement. Configuration de l'éditeur : constante INFINITYCOD_CHECKOUT_URL (une ligne dans le plugin ou wp-config) ou réglage freemius_checkout_url."
 }

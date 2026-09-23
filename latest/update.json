@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.48.0",
+  "version": "5.48.1",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.48.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.48.0",
-  "sha256": "4c1e15f7fdd20880af0e972f6c7833a80af2e05fac13d1df1c4b3050ac9c656c",
-  "release_date": "2026-09-23T11:15:01.198Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.48.1/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.48.1",
+  "sha256": "2fc20b808687674a403f312698a85c5c9f295ad552e4a4ff34240ce8b2dfe27e",
+  "release_date": "2026-09-23T12:46:55.554Z",
   "channel": "stable",
-  "changelog": "## 5.48.0 — 2026-09-23\r\n\r\n- **🔔 Web Push (dernière technologie, zéro service externe)** : recevez chaque nouvelle commande comme une notification sur votre ordinateur ou téléphone, même écran verrouillé. Clés VAPID générées sur votre site, chiffrement aes128gcm (RFC 8291) et signature ES256 (RFC 8292) en PHP pur via OpenSSL — aucun SDK, aucun abonnement. Boutons « Générer les clés », « Activer sur cet appareil », « Envoyer un test » dans Réglages → Avancé.\r\n- **enterkeyhint** sur les champs du formulaire : la touche du clavier mobile affiche l'action adaptée (suivant, envoyer)."
+  "changelog": "## 5.48.1 — 2026-09-23\r\n\r\n- **Correctif stockage Web Push** : les clés VAPID sont stockées entièrement en base64 (le champ binaire binaisait certains stockages SQLite)."
 }

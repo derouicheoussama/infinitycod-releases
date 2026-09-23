@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.47.0",
+  "version": "5.48.0",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.47.0/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.47.0",
-  "sha256": "dce2de98ec6e9f763bb6a971679bf5b6d6eaeb5195e88e114cdcf0aaa9d324d6",
-  "release_date": "2026-09-23T03:10:38.580Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.48.0/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.48.0",
+  "sha256": "4c1e15f7fdd20880af0e972f6c7833a80af2e05fac13d1df1c4b3050ac9c656c",
+  "release_date": "2026-09-23T11:15:01.198Z",
   "channel": "stable",
-  "changelog": "## 5.47.0 — 2026-09-23\r\n\r\n- **Verrou à l'installation** : sans licence activée ni essai en cours, le formulaire de commande affiche une carte d'activation (lien direct « Activer ma licence » pour le marchand, message d'attente élégant pour les visiteurs). Se débloque avec une clé signée, l'essai 7 jours, ou l'achat Freemius.\r\n- **Clés de licence signées hors ligne (Ed25519)** : émises par l'éditeur avec l'outil `gen-license-key` (client, email, durée), vérifiables sans serveur — clé publique embarquée, expiration intégrée, aucun appel distant, compatible tous hébergeurs.\r\n- Test réel : le build commercial se verrouille à l'installation et se déverrouille avec une clé signée (états activé / expiré / désactivé testés)."
+  "changelog": "## 5.48.0 — 2026-09-23\r\n\r\n- **🔔 Web Push (dernière technologie, zéro service externe)** : recevez chaque nouvelle commande comme une notification sur votre ordinateur ou téléphone, même écran verrouillé. Clés VAPID générées sur votre site, chiffrement aes128gcm (RFC 8291) et signature ES256 (RFC 8292) en PHP pur via OpenSSL — aucun SDK, aucun abonnement. Boutons « Générer les clés », « Activer sur cet appareil », « Envoyer un test » dans Réglages → Avancé.\r\n- **enterkeyhint** sur les champs du formulaire : la touche du clavier mobile affiche l'action adaptée (suivant, envoyer)."
 }

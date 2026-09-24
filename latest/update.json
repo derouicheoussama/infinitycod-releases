@@ -1,14 +1,14 @@
 {
   "name": "InfinityCod — Paiement à la livraison (COD Algérie)",
   "slug": "infinitycod",
-  "version": "5.48.3",
+  "version": "5.48.4",
   "requires": "6.0",
   "requires_php": "7.4",
   "requires_woocommerce": "6.0",
-  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.48.3/infinitycod.zip",
-  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.48.3",
-  "sha256": "1e210eb61287afe9c7448acd358f0e68f290bdaebb5a0b07cc6e00d1eed5d07d",
-  "release_date": "2026-09-23T13:50:17.102Z",
+  "download_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/download/v5.48.4/infinitycod.zip",
+  "details_url": "https://github.com/derouicheoussama/infinitycod-releases/releases/tag/v5.48.4",
+  "sha256": "d4db5d9f5fe12a132ab3d0305ba5c88d5d3e46b652f4b782e34b14ea2655f8bb",
+  "release_date": "2026-09-24T02:38:57.579Z",
   "channel": "stable",
   "changelog": "## 5.48.1 — 2026-09-23\r\n\r\n- **Correctif stockage Web Push** : les clés VAPID sont stockées entièrement en base64 (le champ binaire binaisait certains stockages SQLite)."
 }
